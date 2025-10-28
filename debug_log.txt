@@ -9,7 +9,7 @@ SQL Query: INSERT INTO products (
         product_name, product_code, barcode, category_id, brand_id, description, short_description,
         base_uom_id, purchase_uom_id, sales_uom_id, cost_price, selling_price, min_selling_price,
         wholesale_price, min_wholesale_qty, tax_rate, is_taxable, min_stock_level, reorder_point, max_stock_level,
-        track_batches, track_expiry, track_serial, enable_stock_alerts,
+        track_batches, track_expiry, track_serial, enablaaaafe_stock_alerts,
         is_service, is_active, image_path,
         weight, length, width, height, status, created_by, updated_by
     ) VALUES (
