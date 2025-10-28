@@ -1,0 +1,162 @@
+[08-Apr-2025 16:35:24 Europe/Berlin] UPDATE TRANSACTION - Received POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+
+[08-Apr-2025 16:35:24 Europe/Berlin] SQL Query 1: UPDATE journal_entries SET 
+                    entry_date = :entry_date,
+                    description = :description,
+                    reference_number = :reference_number,
+                    notes = :notes,
+                    updated_by = :updated_by,
+                    updated_at = NOW(), financial_year_id = :financial_year_id WHERE id = :id
+[08-Apr-2025 16:35:24 Europe/Berlin] Parameters 1: entry_date=2025-04-07, description=jkjh, reference_number=, notes=, updated_by=1, id=107
+[08-Apr-2025 16:35:24 Europe/Berlin] Adding financial_year_id parameter: 1
+[08-Apr-2025 16:35:24 Europe/Berlin] Processing detail ID: 173, debit_amount: 700000.00, credit_amount: 0.00
+[08-Apr-2025 16:35:24 Europe/Berlin] SQL Query (debit): UPDATE journal_entry_details SET debit_amount = :amount, credit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:35:24 Europe/Berlin] Parameters (debit): amount=1700000, detail_id=173
+[08-Apr-2025 16:35:24 Europe/Berlin] Debit update executed successfully
+[08-Apr-2025 16:35:24 Europe/Berlin] Processing detail ID: 174, debit_amount: 0.00, credit_amount: 700000.00
+[08-Apr-2025 16:35:24 Europe/Berlin] SQL Query (credit): UPDATE journal_entry_details SET credit_amount = :amount, debit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:35:24 Europe/Berlin] Parameters (credit): amount=1700000, detail_id=174
+[08-Apr-2025 16:35:24 Europe/Berlin] Credit update executed successfully
+[08-Apr-2025 16:35:24 Europe/Berlin] SQL Query (totals): UPDATE journal_entries 
+                               SET total_debit = :total_amount, 
+                                   total_credit = :total_amount 
+                               WHERE id = :id
+[08-Apr-2025 16:35:24 Europe/Berlin] Parameters (totals): total_amount=1700000, id=107
+[08-Apr-2025 16:35:24 Europe/Berlin] Database error: SQLSTATE[HY093]: Invalid parameter number
+[08-Apr-2025 16:35:24 Europe/Berlin] Error code: HY093
+[08-Apr-2025 16:35:24 Europe/Berlin] SQL state: HY093
+[08-Apr-2025 16:35:24 Europe/Berlin] File: C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php on line 168
+[08-Apr-2025 16:35:24 Europe/Berlin] Trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php(168): PDOStatement->execute()
+#1 {main}
+[08-Apr-2025 16:35:24 Europe/Berlin] POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+
+[08-Apr-2025 16:36:56 Europe/Berlin] UPDATE TRANSACTION - Received POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+
+[08-Apr-2025 16:36:56 Europe/Berlin] SQL Query 1: UPDATE journal_entries SET 
+                    entry_date = :entry_date,
+                    description = :description,
+                    reference_number = :reference_number,
+                    notes = :notes,
+                    updated_by = :updated_by,
+                    updated_at = NOW(), financial_year_id = :financial_year_id WHERE id = :id
+[08-Apr-2025 16:36:56 Europe/Berlin] Parameters 1: entry_date=2025-04-07, description=jkjh, reference_number=, notes=, updated_by=1, id=107
+[08-Apr-2025 16:36:56 Europe/Berlin] Adding financial_year_id parameter: 1
+[08-Apr-2025 16:36:56 Europe/Berlin] Processing detail ID: 173, debit_amount: 700000.00, credit_amount: 0.00
+[08-Apr-2025 16:36:56 Europe/Berlin] SQL Query (debit): UPDATE journal_entry_details SET debit_amount = :amount, credit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:36:56 Europe/Berlin] Parameters (debit): amount=1700000, detail_id=173
+[08-Apr-2025 16:36:56 Europe/Berlin] Debit update executed successfully
+[08-Apr-2025 16:36:56 Europe/Berlin] Processing detail ID: 174, debit_amount: 0.00, credit_amount: 700000.00
+[08-Apr-2025 16:36:56 Europe/Berlin] SQL Query (credit): UPDATE journal_entry_details SET credit_amount = :amount, debit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:36:56 Europe/Berlin] Parameters (credit): amount=1700000, detail_id=174
+[08-Apr-2025 16:36:56 Europe/Berlin] Credit update executed successfully
+[08-Apr-2025 16:36:56 Europe/Berlin] SQL Query (totals): UPDATE journal_entries 
+                               SET total_debit = :total_amount, 
+                                   total_credit = :total_amount 
+                               WHERE id = :id
+[08-Apr-2025 16:36:56 Europe/Berlin] Parameters (totals): total_amount=1700000, id=107
+[08-Apr-2025 16:36:56 Europe/Berlin] Database error: SQLSTATE[HY093]: Invalid parameter number
+[08-Apr-2025 16:36:56 Europe/Berlin] Error code: HY093
+[08-Apr-2025 16:36:56 Europe/Berlin] SQL state: HY093
+[08-Apr-2025 16:36:56 Europe/Berlin] File: C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php on line 168
+[08-Apr-2025 16:36:56 Europe/Berlin] Trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php(168): PDOStatement->execute()
+#1 {main}
+[08-Apr-2025 16:36:56 Europe/Berlin] POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+
+[08-Apr-2025 16:59:52 Europe/Berlin] UPDATE TRANSACTION - Received POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000.00
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+
+[08-Apr-2025 16:59:52 Europe/Berlin] SQL Query 1: UPDATE journal_entries SET 
+                    entry_date = :entry_date,
+                    description = :description,
+                    reference_number = :reference_number,
+                    notes = :notes,
+                    updated_by = :updated_by,
+                    updated_at = NOW(), financial_year_id = :financial_year_id WHERE id = :id
+[08-Apr-2025 16:59:52 Europe/Berlin] Parameters 1: entry_date=2025-04-07, description=jkjh, reference_number=, notes=, updated_by=1, id=107
+[08-Apr-2025 16:59:52 Europe/Berlin] Adding financial_year_id parameter: 1
+[08-Apr-2025 16:59:52 Europe/Berlin] Processing detail ID: 173, debit_amount: 700000.00, credit_amount: 0.00
+[08-Apr-2025 16:59:52 Europe/Berlin] SQL Query (debit): UPDATE journal_entry_details SET debit_amount = :amount, credit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:59:52 Europe/Berlin] Parameters (debit): amount=1700000, detail_id=173
+[08-Apr-2025 16:59:52 Europe/Berlin] Debit update executed successfully
+[08-Apr-2025 16:59:52 Europe/Berlin] Processing detail ID: 174, debit_amount: 0.00, credit_amount: 700000.00
+[08-Apr-2025 16:59:52 Europe/Berlin] SQL Query (credit): UPDATE journal_entry_details SET credit_amount = :amount, debit_amount = 0 WHERE id = :detail_id
+[08-Apr-2025 16:59:52 Europe/Berlin] Parameters (credit): amount=1700000, detail_id=174
+[08-Apr-2025 16:59:52 Europe/Berlin] Credit update executed successfully
+[08-Apr-2025 16:59:52 Europe/Berlin] SQL Query (totals): UPDATE journal_entries 
+                               SET total_debit = :total_amount, 
+                                   total_credit = :total_amount 
+                               WHERE id = :id
+[08-Apr-2025 16:59:52 Europe/Berlin] Parameters (totals): total_amount=1700000, id=107
+[08-Apr-2025 16:59:52 Europe/Berlin] Database error: SQLSTATE[HY093]: Invalid parameter number
+[08-Apr-2025 16:59:52 Europe/Berlin] Error code: HY093
+[08-Apr-2025 16:59:52 Europe/Berlin] SQL state: HY093
+[08-Apr-2025 16:59:52 Europe/Berlin] File: C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php on line 176
+[08-Apr-2025 16:59:52 Europe/Berlin] Trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\update_transaction.php(176): PDOStatement->execute()
+#1 {main}
+[08-Apr-2025 16:59:52 Europe/Berlin] POST data: Array
+(
+    [bank_account] => 45
+    [id] => 107
+    [entry_date] => 2025-04-07
+    [reference_number] => 
+    [financial_year_id] => 1
+    [amount] => 1700000.00
+    [from_account] => 9
+    [description] => jkjh
+    [notes] => 
+)
+

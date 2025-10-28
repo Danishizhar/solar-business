@@ -1,0 +1,76 @@
+[2025-04-08 20:16:34] Budget save request received - Data: {
+    "fiscal_year": "4",
+    "account_id": "46",
+    "cost_center_id": "5",
+    "period": "yearly",
+    "notes": "",
+    "monthly_amount_1": "0.00",
+    "monthly_amount_2": "0.00",
+    "monthly_amount_3": "0.00",
+    "monthly_amount_4": "0.00",
+    "monthly_amount_5": "0.00",
+    "monthly_amount_6": "0.00",
+    "monthly_amount_7": "0.00",
+    "monthly_amount_8": "0.00",
+    "monthly_amount_9": "0.00",
+    "monthly_amount_10": "0.00",
+    "monthly_amount_11": "0.00",
+    "monthly_amount_12": "0.00",
+    "quarterly_amount_1": "0.00",
+    "quarterly_amount_2": "0.00",
+    "quarterly_amount_3": "0.00",
+    "quarterly_amount_4": "0.00",
+    "yearly_amount": "500000"
+}
+[2025-04-08 20:16:34] Checking fiscal year - Data: {
+    "fiscal_year_id": "4",
+    "query": "\n            SELECT id, year_code, is_closed \n            FROM financial_years \n            WHERE id = :fiscal_year \n            AND status = 1\n        "
+}
+[2025-04-08 20:16:34] Fiscal year query result - Data: {
+    "id": 4,
+    "year_code": "FY2025",
+    "is_closed": 0
+}
+[2025-04-08 20:16:34] PDO Exception - Data: {
+    "message": "SQLSTATE[HY093]: Invalid parameter number",
+    "code": "HY093",
+    "trace": "#0 C:\\xampp\\htdocs\\Solar Business\\modules\\accounts\\actions\\save_budget.php(223): PDOStatement->execute()\n#1 {main}"
+}
+[2025-04-08 20:17:16] Budget save request received - Data: {
+    "fiscal_year": "4",
+    "account_id": "46",
+    "cost_center_id": "5",
+    "period": "yearly",
+    "notes": "",
+    "monthly_amount_1": "0.00",
+    "monthly_amount_2": "0.00",
+    "monthly_amount_3": "0.00",
+    "monthly_amount_4": "0.00",
+    "monthly_amount_5": "0.00",
+    "monthly_amount_6": "0.00",
+    "monthly_amount_7": "0.00",
+    "monthly_amount_8": "0.00",
+    "monthly_amount_9": "0.00",
+    "monthly_amount_10": "0.00",
+    "monthly_amount_11": "0.00",
+    "monthly_amount_12": "0.00",
+    "quarterly_amount_1": "0.00",
+    "quarterly_amount_2": "0.00",
+    "quarterly_amount_3": "0.00",
+    "quarterly_amount_4": "0.00",
+    "yearly_amount": "60000"
+}
+[2025-04-08 20:17:16] Checking fiscal year - Data: {
+    "fiscal_year_id": "4",
+    "query": "\n            SELECT id, year_code, is_closed \n            FROM financial_years \n            WHERE id = :fiscal_year \n            AND status = 1\n        "
+}
+[2025-04-08 20:17:16] Fiscal year query result - Data: {
+    "id": 4,
+    "year_code": "FY2025",
+    "is_closed": 0
+}
+[2025-04-08 20:17:16] PDO Exception - Data: {
+    "message": "SQLSTATE[HY093]: Invalid parameter number",
+    "code": "HY093",
+    "trace": "#0 C:\\xampp\\htdocs\\Solar Business\\modules\\accounts\\actions\\save_budget.php(223): PDOStatement->execute()\n#1 {main}"
+}

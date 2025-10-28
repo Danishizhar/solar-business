@@ -1,0 +1,13 @@
+2025-04-03 17:07:19 - TEST: Basic Reconciliation - No Variance - STATUS: FAILED - MESSAGE: Failed: Authentication required
+2025-04-03 17:07:19 - TEST: Reconciliation with Positive Variance - STATUS: FAILED - MESSAGE: Failed: Authentication required
+2025-04-03 17:07:19 - TEST: Reconciliation with Negative Variance - STATUS: FAILED - MESSAGE: Failed: Authentication required
+2025-04-03 17:07:19 - TEST: Reconciliation with Custom Adjustment Account - STATUS: FAILED - MESSAGE: Failed: Authentication required
+2025-04-03 17:07:19 - TEST: Error Handling - Invalid Bank Account - STATUS: PASSED - MESSAGE: Expected error for invalid bank account: Authentication required
+2025-04-03 17:07:19 - TEST: Error Handling - No Transactions - STATUS: PASSED - MESSAGE: Expected error for no transactions: Authentication required
+2025-04-03 17:07:19 - TEST: Error Handling - Invalid Adjustment Account - STATUS: PASSED - MESSAGE: Expected error for invalid adjustment account: Authentication required
+2025-04-03 17:09:37 - TEST: Basic Reconciliation - No Variance - STATUS: FAILED - MESSAGE: Failed to reconcile with no variance
+2025-04-03 17:09:37 - TEST: Reconciliation with Positive Variance - STATUS: FAILED - MESSAGE: Failed to reconcile with positive variance
+2025-04-03 17:09:37 - TEST: Reconciliation with Negative Variance - STATUS: FAILED - MESSAGE: Failed to reconcile with negative variance
+2025-04-03 17:09:37 - TEST: Reconciliation with Custom Adjustment Account - STATUS: FAILED - MESSAGE: Failed to reconcile with custom adjustment account
+2025-04-03 17:09:37 - TEST: Error Handling - Invalid Bank Account - STATUS: PASSED - MESSAGE: Correctly detected invalid bank account
+2025-04-03 17:09:37 - TEST: Error Handling - No Transactions - STATUS: PASSED - MESSAGE: Correctly detected missing transactions

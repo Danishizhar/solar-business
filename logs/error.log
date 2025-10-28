@@ -1,0 +1,455 @@
+ÿþ[2025-03-28 16:38:11] Received POST data: Array
+(
+    [id] => 1
+    [account_code] => 1001
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Cash
+    [account_number] => 01
+    [branch_name] => Head Office
+    [swift_code] => 
+    [iban] => 
+    [is_group] => 0
+)
+
+[2025-03-28 16:38:11] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-03-28 16:38:11] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-03-28 17:12:24] Received POST data: Array
+(
+    [id] => 2
+    [account_code] => 1002
+    [account_name] => Bank Account
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => bank
+    [account_number] => 987
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-03-28 17:12:24] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-03-28 17:12:24] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-03-28 17:25:29] Received POST data: Array
+(
+    [id] => 37
+    [account_code] => 1002-03
+    [account_name] => UBL
+    [category_id] => 1
+    [balance_type] => debit
+    [opening_balance] => 30000.00
+    [description] => UBL
+    [is_bank_account] => 1
+    [bank_name] => UBL
+    [account_number] => 123456789
+    [branch_name] => uni
+    [swift_code] => 456465
+    [iban] => UNIL65465456456
+)
+
+[2025-03-28 17:25:29] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-03-28 17:25:29] Bank update query: UPDATE bank_accounts SET 
+                    bank_name = ?,
+                    branch_name = ?,
+                    account_number = ?,
+                    swift_code = ?,
+                    iban = ?,
+                    account_title = ?,
+                    opening_balance = ?,
+                    current_balance = ?,
+                    updated_by = ?,
+                    updated_at = NOW()
+                    WHERE account_id = ? AND status = 1
+[2025-03-28 17:50:31] Received POST data: Array
+(
+    [id] => 41
+    [account_code] => 1002-01
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 50000.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => MCB
+    [account_number] => 123456789
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-03-28 17:50:31] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-03-28 17:50:31] Bank update query: UPDATE bank_accounts SET 
+                    bank_name = ?,
+                    branch_name = ?,
+                    account_number = ?,
+                    swift_code = ?,
+                    iban = ?,
+                    account_title = ?,
+                    opening_balance = ?,
+                    current_balance = ?,
+                    updated_by = ?,
+                    updated_at = NOW()
+                    WHERE account_id = ? AND status = 1
+[2025-03-28 17:52:32] Received POST data: Array
+(
+    [id] => 40
+    [account_code] => 1000
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Cash
+    [account_number] => 01
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-03-28 17:52:32] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-03-28 17:52:32] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-04-03 13:53:41] Received POST data: Array
+(
+    [id] => 2
+    [account_code] => 1002
+    [account_name] => Bank Account
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => bank
+    [account_number] => 01
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-04-03 13:53:41] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-04-03 13:53:41] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-04-03 18:29:02] Received POST data: Array
+(
+    [id] => 45
+    [account_code] => 1002-01
+    [account_name] => Test Bank Reconciliation
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Test Bank
+    [account_number] => 0001
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-04-03 18:29:02] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-04-03 18:29:02] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-04-03 18:48:50] Received POST data: Array
+(
+    [id] => 42
+    [account_code] => 1000
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Cash
+    [account_number] => 01
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-04-03 18:48:50] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-04-03 18:48:50] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-04-29 18:53:40] Received POST data: Array
+(
+    [id] => 53
+    [account_code] => AP-002
+    [account_name] => Payable - Hero
+    [category_id] => 3
+    [parent_id] => 6
+    [balance_type] => credit
+    [opening_balance] => 0.00
+    [description] => Accounts Payable ledger for supplier: Mushtaq
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+    [is_bank_account] => 0
+)
+
+[2025-04-29 18:53:40] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-07-28 14:30:38] Received POST data: Array
+(
+    [id] => 47
+    [account_code] => 1002-01
+    [account_name] => Meezan bank
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+    [is_bank_account] => 0
+)
+
+[2025-07-28 14:30:38] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-07-28 14:31:32] Received POST data: Array
+(
+    [id] => 47
+    [account_code] => 1002-01
+    [account_name] => Meezan bank
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Meezan
+    [account_number] => 1212
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-07-28 14:31:32] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-07-28 14:31:32] Bank insert query: INSERT INTO bank_accounts 
+                    (account_id, bank_name, branch_name, account_number, swift_code, iban, 
+                    account_title, opening_balance, current_balance, status, created_by, updated_by, 
+                    created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, NOW(), NOW())
+[2025-07-28 14:31:50] Received POST data: Array
+(
+    [id] => 47
+    [account_code] => 1002-01
+    [account_name] => Meezan bank
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0.00
+    [description] => 
+    [is_bank_account] => 1
+    [bank_name] => Meezan
+    [account_number] => 1212
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[2025-07-28 14:31:50] Account update query: UPDATE chart_of_accounts SET 
+            account_code = ?,
+            account_name = ?,
+            category_id = ?,
+            parent_id = ?,
+            description = ?,
+            balance_type = ?,
+            opening_balance = ?,
+            current_balance = ?,
+            is_group = ?,
+            is_bank_account = ?,
+            updated_by = ?,
+            updated_at = NOW()
+            WHERE id = ? AND status = 1
+[2025-07-28 14:31:50] Bank update query: UPDATE bank_accounts SET 
+                    bank_name = ?,
+                    branch_name = ?,
+                    account_number = ?,
+                    swift_code = ?,
+                    iban = ?,
+                    account_title = ?,
+                    opening_balance = ?,
+                    current_balance = ?,
+                    updated_by = ?,
+                    updated_at = NOW()
+                    WHERE account_id = ? AND status = 1

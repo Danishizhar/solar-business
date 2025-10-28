@@ -1,0 +1,679 @@
+[22-Mar-2025 18:45:08 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank Account
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:45:08 Europe/Berlin] Adding bank details for account ID: 31
+[22-Mar-2025 18:45:08 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts (
+                    account_id,
+                    bank_name,
+                    branch_name,
+                    account_number,
+                    swift_code,
+                    account_title,
+                    opening_balance,
+                    current_balance,
+                    status,
+                    created_by,
+                    updated_by
+                ) VALUES (
+                    :account_id,
+                    :bank_name,
+                    :branch_name,
+                    :account_number,
+                    :swift_code,
+                    :account_title,
+                    :opening_balance,
+                    :current_balance,
+                    1,
+                    :created_by,
+                    :updated_by
+                )
+[22-Mar-2025 18:45:08 Europe/Berlin] PDOException in save_account.php: SQLSTATE[HY093]: Invalid parameter number
+[22-Mar-2025 18:45:08 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php(318): PDOStatement->execute()
+#1 {main}
+[22-Mar-2025 18:45:08 Europe/Berlin] Error code: HY093
+[22-Mar-2025 18:45:08 Europe/Berlin] SQL State: HY093
+[22-Mar-2025 18:45:08 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php on line 335
+[22-Mar-2025 18:45:08 Europe/Berlin] Error message: 
+[22-Mar-2025 18:47:51 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank Account
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:47:51 Europe/Berlin] Adding bank details for account ID: 32
+[22-Mar-2025 18:47:51 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts (
+                    account_id,
+                    bank_name,
+                    branch_name,
+                    account_number,
+                    swift_code,
+                    account_title,
+                    opening_balance,
+                    current_balance,
+                    status,
+                    created_by,
+                    updated_by
+                ) VALUES (
+                    :account_id,
+                    :bank_name,
+                    :branch_name,
+                    :account_number,
+                    :swift_code,
+                    :account_title,
+                    :opening_balance,
+                    :current_balance,
+                    1,
+                    :created_by,
+                    :updated_by
+                )
+[22-Mar-2025 18:47:51 Europe/Berlin] PDOException in save_account.php: SQLSTATE[HY093]: Invalid parameter number
+[22-Mar-2025 18:47:51 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php(319): PDOStatement->execute()
+#1 {main}
+[22-Mar-2025 18:47:51 Europe/Berlin] SQL State: HY093
+[22-Mar-2025 18:47:51 Europe/Berlin] Error code: 
+[22-Mar-2025 18:47:51 Europe/Berlin] Error message: 
+[22-Mar-2025 18:48:29 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:48:29 Europe/Berlin] Adding bank details for account ID: 33
+[22-Mar-2025 18:48:29 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts (
+                    account_id,
+                    bank_name,
+                    branch_name,
+                    account_number,
+                    swift_code,
+                    account_title,
+                    opening_balance,
+                    current_balance,
+                    status,
+                    created_by,
+                    updated_by
+                ) VALUES (
+                    :account_id,
+                    :bank_name,
+                    :branch_name,
+                    :account_number,
+                    :swift_code,
+                    :account_title,
+                    :opening_balance,
+                    :current_balance,
+                    1,
+                    :created_by,
+                    :updated_by
+                )
+[22-Mar-2025 18:48:29 Europe/Berlin] PDOException in save_account.php: SQLSTATE[HY093]: Invalid parameter number
+[22-Mar-2025 18:48:29 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php(319): PDOStatement->execute()
+#1 {main}
+[22-Mar-2025 18:48:29 Europe/Berlin] SQL State: HY093
+[22-Mar-2025 18:48:29 Europe/Berlin] Error code: 
+[22-Mar-2025 18:48:29 Europe/Berlin] Error message: 
+[22-Mar-2025 18:49:41 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:49:41 Europe/Berlin] Adding bank details for account ID: 34
+[22-Mar-2025 18:49:41 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts (
+                    account_id,
+                    bank_name,
+                    branch_name,
+                    account_number,
+                    swift_code,
+                    account_title,
+                    opening_balance,
+                    current_balance,
+                    status,
+                    created_by,
+                    updated_by,
+                    created_at,
+                    updated_at
+                ) VALUES (
+                    :account_id,
+                    :bank_name,
+                    :branch_name,
+                    :account_number,
+                    :swift_code,
+                    :account_title,
+                    :opening_balance,
+                    :current_balance,
+                    1,
+                    :created_by,
+                    :updated_by,
+                    NOW(),
+                    NOW()
+                )
+[22-Mar-2025 18:49:41 Europe/Berlin] PDOException in save_account.php: SQLSTATE[HY093]: Invalid parameter number
+[22-Mar-2025 18:49:41 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php(323): PDOStatement->execute()
+#1 {main}
+[22-Mar-2025 18:49:41 Europe/Berlin] SQL State: HY093
+[22-Mar-2025 18:49:41 Europe/Berlin] Error code: 
+[22-Mar-2025 18:49:41 Europe/Berlin] Error message: 
+[22-Mar-2025 18:50:09 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:50:09 Europe/Berlin] Adding bank details for account ID: 35
+[22-Mar-2025 18:50:09 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts (
+                    account_id,
+                    bank_name,
+                    branch_name,
+                    account_number,
+                    swift_code,
+                    account_title,
+                    opening_balance,
+                    current_balance,
+                    status,
+                    created_by,
+                    updated_by,
+                    created_at,
+                    updated_at
+                ) VALUES (
+                    :account_id,
+                    :bank_name,
+                    :branch_name,
+                    :account_number,
+                    :swift_code,
+                    :account_title,
+                    :opening_balance,
+                    :current_balance,
+                    1,
+                    :created_by,
+                    :updated_by,
+                    NOW(),
+                    NOW()
+                )
+[22-Mar-2025 18:50:09 Europe/Berlin] PDOException in save_account.php: SQLSTATE[HY093]: Invalid parameter number
+[22-Mar-2025 18:50:09 Europe/Berlin] Stack trace: #0 C:\xampp\htdocs\Solar Business\modules\accounts\actions\save_account.php(323): PDOStatement->execute()
+#1 {main}
+[22-Mar-2025 18:50:09 Europe/Berlin] SQL State: HY093
+[22-Mar-2025 18:50:09 Europe/Berlin] Error code: 
+[22-Mar-2025 18:50:09 Europe/Berlin] Error message: 
+[22-Mar-2025 18:51:37 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => Bank
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 987654321
+    [branch_name] => uni
+    [ifsc_code] => 01
+)
+
+[22-Mar-2025 18:51:37 Europe/Berlin] Adding bank details for account ID: 36
+[22-Mar-2025 18:51:37 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[22-Mar-2025 18:57:58 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-03
+    [account_name] => UBL
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 20000
+    [description] => UBL
+    [is_bank_account] => on
+    [bank_name] => UBL
+    [account_number] => 123456789
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[22-Mar-2025 18:57:58 Europe/Berlin] Adding bank details for account ID: 37
+[22-Mar-2025 18:57:58 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[28-Mar-2025 17:48:15 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1000
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[28-Mar-2025 17:48:55 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-01
+    [account_name] => MCB
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 10000
+    [description] => 
+    [is_bank_account] => on
+    [bank_name] => MCB
+    [account_number] => 123456789
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[28-Mar-2025 17:48:55 Europe/Berlin] Adding bank details for account ID: 41
+[28-Mar-2025 17:48:55 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[28-Mar-2025 19:53:31 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1000
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [is_bank_account] => on
+    [bank_name] => Cash
+    [account_number] => 01
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[28-Mar-2025 19:53:31 Europe/Berlin] Adding bank details for account ID: 42
+[28-Mar-2025 19:53:31 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[03-Apr-2025 16:36:05 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-01
+    [account_name] => Test Bank Reconciliation
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [is_bank_account] => on
+    [bank_name] => Test Bank
+    [account_number] => 65456456456
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[03-Apr-2025 16:36:05 Europe/Berlin] Adding bank details for account ID: 45
+[03-Apr-2025 16:36:05 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[08-Apr-2025 18:04:56 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1000
+    [account_name] => Cash in Hand
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [is_bank_account] => on
+    [bank_name] => Cash Bank
+    [account_number] => 0001
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[08-Apr-2025 18:04:56 Europe/Berlin] Adding bank details for account ID: 46
+[08-Apr-2025 18:04:56 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[08-Apr-2025 18:11:28 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-01
+    [account_name] => Meezan bank
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[08-Apr-2025 18:11:28 Europe/Berlin] Exception in save_account.php: Account code already exists
+[08-Apr-2025 18:11:28 Europe/Berlin] Stack trace: #0 {main}
+[08-Apr-2025 18:11:37 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02
+    [account_name] => Meezan bank
+    [category_id] => 1
+    [parent_id] => 2
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[08-Apr-2025 18:12:52 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1002-02-01
+    [account_name] => Gulshan
+    [category_id] => 7
+    [parent_id] => 47
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [is_bank_account] => on
+    [bank_name] => Mezan Gulshan
+    [account_number] => 987654321
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[08-Apr-2025 18:12:52 Europe/Berlin] Adding bank details for account ID: 48
+[08-Apr-2025 18:12:52 Europe/Berlin] Bank query: 
+                INSERT INTO bank_accounts 
+                SET account_id = :account_id,
+                    bank_name = :bank_name,
+                    branch_name = :branch_name,
+                    account_number = :account_number,
+                    swift_code = :swift_code,
+                    iban = :iban,
+                    account_title = :account_title,
+                    opening_balance = :opening_balance,
+                    current_balance = :current_balance,
+                    status = 1,
+                    created_by = :created_by,
+                    updated_by = :updated_by
+[08-Apr-2025 20:00:09 Europe/Berlin] Starting budget creation process
+[08-Apr-2025 20:00:09 Europe/Berlin] POST data: Array
+(
+    [fiscal_year] => 4
+    [account_id] => 46
+    [cost_center_id] => 5
+    [period] => yearly
+    [notes] => 
+    [monthly_amount_1] => 0.00
+    [monthly_amount_2] => 0.00
+    [monthly_amount_3] => 0.00
+    [monthly_amount_4] => 0.00
+    [monthly_amount_5] => 0.00
+    [monthly_amount_6] => 0.00
+    [monthly_amount_7] => 0.00
+    [monthly_amount_8] => 0.00
+    [monthly_amount_9] => 0.00
+    [monthly_amount_10] => 0.00
+    [monthly_amount_11] => 0.00
+    [monthly_amount_12] => 0.00
+    [quarterly_amount_1] => 0.00
+    [quarterly_amount_2] => 0.00
+    [quarterly_amount_3] => 0.00
+    [quarterly_amount_4] => 0.00
+    [yearly_amount] => 200000
+)
+
+[08-Apr-2025 20:00:09 Europe/Berlin] Total amount: 200000
+[08-Apr-2025 20:00:09 Europe/Berlin] Period amounts: Array
+(
+)
+
+[08-Apr-2025 20:00:09 Europe/Berlin] Database error in save_budget.php: SQLSTATE[HY093]: Invalid parameter number
+[08-Apr-2025 20:00:09 Europe/Berlin] SQL State: HY093
+[08-Apr-2025 20:00:09 Europe/Berlin] Error Info: Array
+(
+    [0] => HY093
+)
+
+[23-May-2025 16:11:06 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => '
+    [account_name] => '
+    [category_id] => 8
+    [parent_id] => 6
+    [balance_type] => credit
+    [opening_balance] => 
+    [description] => '
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 16:57:11 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1003
+    [account_name] => Inventory
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 16:57:11 Europe/Berlin] Exception in save_account.php: Account code already exists
+[30-Jun-2025 16:57:11 Europe/Berlin] Stack trace: #0 {main}
+[30-Jun-2025 16:58:59 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 1004
+    [account_name] => Inventory
+    [category_id] => 1
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 17:01:05 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 6005
+    [account_name] => Inventory Adjustment
+    [category_id] => 8
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 17:23:35 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 4002
+    [account_name] => Purchase Discount
+    [category_id] => 6
+    [parent_id] => 
+    [balance_type] => credit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 17:24:27 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 6006
+    [account_name] => Delivery Expense
+    [category_id] => 8
+    [parent_id] => 
+    [balance_type] => debit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+
+[30-Jun-2025 17:25:43 Europe/Berlin] Received POST data: Array
+(
+    [account_code] => 2003
+    [account_name] => Purchase Tax payable
+    [category_id] => 3
+    [parent_id] => 
+    [balance_type] => credit
+    [opening_balance] => 0
+    [description] => 
+    [bank_name] => 
+    [account_number] => 
+    [branch_name] => 
+    [swift_code] => 
+    [iban] => 
+)
+

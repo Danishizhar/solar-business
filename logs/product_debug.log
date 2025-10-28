@@ -1,0 +1,20 @@
+[2025-04-15 19:19:21] Starting product save process
+[2025-04-15 19:19:21] Product name: battery
+[2025-04-15 19:19:21] Product code: 002
+[2025-04-15 19:19:21] Prices - Cost: 50000, Selling: 100000
+[2025-04-15 19:19:21] Checking if product code exists
+[2025-04-15 19:19:21] Processing image upload
+[2025-04-15 19:19:21] Image uploaded: original-851356a708b7aa1155189868419deb48.webp
+[2025-04-15 19:19:21] Target file: ../../../uploads/products/1744737561_original-851356a708b7aa1155189868419deb48.webp
+[2025-04-15 19:19:21] Image uploaded successfully
+[2025-04-15 19:19:21] Preparing to insert product
+[2025-04-15 19:19:21] SQL Query: INSERT INTO products (
+                     product_name, product_code, category_id, description, unit,
+                     purchase_price, sale_price, min_stock_level, created_at, updated_at,
+                     image_path
+                     ) VALUES (
+                     :product_name, :product_code, :category_id, :description, :unit,
+                     :purchase_price, :sale_price, :min_stock_level, NOW(), NOW(),
+                     :image_path
+                     )
+[2025-04-15 19:19:21] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_path' in 'field list'

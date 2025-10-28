@@ -1,0 +1,11 @@
+Libraries to download:
+
+1. JsBarcode (for barcode generation):
+   - Download from: https://github.com/lindell/JsBarcode/releases
+   - File: jsbarcode.min.js
+
+2. QuaggaJS (for barcode scanning):
+   - Download from: https://github.com/serratus/quaggaJS/releases
+   - File: quagga.min.js
+
+These libraries should be placed in the assets/js directory.

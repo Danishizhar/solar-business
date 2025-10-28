@@ -1,0 +1,1158 @@
+[2025-06-24 18:24:06] Starting GRN cancellation process
+[2025-06-24 18:24:06] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:24:06] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:24:06] Found 2 GRN items to cancel
+[2025-06-24 18:24:06] Updated GRN status to cancelled
+[2025-06-24 18:24:06] Created cancellation transaction with ID: 60
+[2025-06-24 18:24:06] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:24:06] Updated stock record: 1 rows affected
+[2025-06-24 18:24:06] Created transaction detail for product ID: 11
+[2025-06-24 18:24:06] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:24:06] Updated stock record: 1 rows affected
+[2025-06-24 18:24:06] Created transaction detail for product ID: 27
+[2025-06-24 18:24:06] Found 1 other active GRNs for this PO
+[2025-06-24 18:24:06] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:24:18] Starting GRN cancellation process
+[2025-06-24 18:24:18] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:24:18] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:24:18] Found 2 GRN items to cancel
+[2025-06-24 18:24:18] Updated GRN status to cancelled
+[2025-06-24 18:24:18] Created cancellation transaction with ID: 61
+[2025-06-24 18:24:18] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:24:18] Updated stock record: 1 rows affected
+[2025-06-24 18:24:18] Created transaction detail for product ID: 11
+[2025-06-24 18:24:18] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:24:18] Updated stock record: 1 rows affected
+[2025-06-24 18:24:18] Created transaction detail for product ID: 27
+[2025-06-24 18:24:18] Found 1 other active GRNs for this PO
+[2025-06-24 18:24:18] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:31:21] Starting GRN cancellation process
+[2025-06-24 18:31:21] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:31:21] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:31:21] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:31:21] Found 2 GRN items to cancel
+[2025-06-24 18:31:21] Updated GRN status to cancelled
+[2025-06-24 18:31:21] Created cancellation transaction with ID: 62
+[2025-06-24 18:31:21] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:31:21] Updated stock record: 1 rows affected
+[2025-06-24 18:31:21] Created transaction detail for product ID: 11
+[2025-06-24 18:31:21] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:31:21] Updated stock record: 1 rows affected
+[2025-06-24 18:31:21] Created transaction detail for product ID: 27
+[2025-06-24 18:31:21] Found 1 other active GRNs for this PO
+[2025-06-24 18:31:21] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:31:37] Starting GRN cancellation process
+[2025-06-24 18:31:37] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:31:37] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:31:37] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:31:37] Found 2 GRN items to cancel
+[2025-06-24 18:31:37] Updated GRN status to cancelled
+[2025-06-24 18:31:37] Created cancellation transaction with ID: 63
+[2025-06-24 18:31:37] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:31:37] Updated stock record: 1 rows affected
+[2025-06-24 18:31:37] Created transaction detail for product ID: 11
+[2025-06-24 18:31:37] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:31:37] Updated stock record: 1 rows affected
+[2025-06-24 18:31:37] Created transaction detail for product ID: 27
+[2025-06-24 18:31:37] Found 1 other active GRNs for this PO
+[2025-06-24 18:31:37] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:31:41] Starting GRN cancellation process
+[2025-06-24 18:31:41] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:31:41] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:31:41] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:31:41] Found 2 GRN items to cancel
+[2025-06-24 18:31:41] Updated GRN status to cancelled
+[2025-06-24 18:31:41] Created cancellation transaction with ID: 64
+[2025-06-24 18:31:41] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:31:41] Updated stock record: 1 rows affected
+[2025-06-24 18:31:41] Created transaction detail for product ID: 11
+[2025-06-24 18:31:41] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:31:41] Updated stock record: 1 rows affected
+[2025-06-24 18:31:41] Created transaction detail for product ID: 27
+[2025-06-24 18:31:41] Found 1 other active GRNs for this PO
+[2025-06-24 18:31:41] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:36:30] Starting GRN cancellation process
+[2025-06-24 18:36:30] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:36:30] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:36:30] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:36:30] Found 2 GRN items to cancel
+[2025-06-24 18:36:30] Updated GRN status to cancelled
+[2025-06-24 18:36:30] Created cancellation transaction with ID: 65
+[2025-06-24 18:36:30] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:36:30] Updated stock record: 1 rows affected
+[2025-06-24 18:36:30] Created transaction detail for product ID: 11
+[2025-06-24 18:36:30] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:36:30] Updated stock record: 1 rows affected
+[2025-06-24 18:36:30] Created transaction detail for product ID: 27
+[2025-06-24 18:36:30] Found 1 other active GRNs for this PO
+[2025-06-24 18:36:30] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:36:36] Starting GRN cancellation process
+[2025-06-24 18:36:36] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:36:36] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:36:36] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:36:36] Found 2 GRN items to cancel
+[2025-06-24 18:36:36] Updated GRN status to cancelled
+[2025-06-24 18:36:37] Created cancellation transaction with ID: 66
+[2025-06-24 18:36:37] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:36:37] Updated stock record: 1 rows affected
+[2025-06-24 18:36:37] Created transaction detail for product ID: 11
+[2025-06-24 18:36:37] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:36:37] Updated stock record: 1 rows affected
+[2025-06-24 18:36:37] Created transaction detail for product ID: 27
+[2025-06-24 18:36:37] Found 1 other active GRNs for this PO
+[2025-06-24 18:36:37] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:36:43] Starting GRN cancellation process
+[2025-06-24 18:36:43] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:36:43] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:36:43] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:36:43] Found 2 GRN items to cancel
+[2025-06-24 18:36:43] Updated GRN status to cancelled
+[2025-06-24 18:36:43] Created cancellation transaction with ID: 67
+[2025-06-24 18:36:43] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:36:43] Updated stock record: 1 rows affected
+[2025-06-24 18:36:43] Created transaction detail for product ID: 11
+[2025-06-24 18:36:43] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:36:43] Updated stock record: 1 rows affected
+[2025-06-24 18:36:43] Created transaction detail for product ID: 27
+[2025-06-24 18:36:43] Found 1 other active GRNs for this PO
+[2025-06-24 18:36:43] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:42:01] Starting GRN cancellation process
+[2025-06-24 18:42:01] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:42:01] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:42:01] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:42:01] Found 2 GRN items to cancel
+[2025-06-24 18:42:01] Updated GRN status to cancelled
+[2025-06-24 18:42:01] Created cancellation transaction with ID: 68
+[2025-06-24 18:42:01] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:42:01] Updated stock record: 1 rows affected
+[2025-06-24 18:42:01] Created transaction detail for product ID: 11
+[2025-06-24 18:42:01] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:42:01] Updated stock record: 1 rows affected
+[2025-06-24 18:42:01] Created transaction detail for product ID: 27
+[2025-06-24 18:42:01] Found 1 other active GRNs for this PO
+[2025-06-24 18:42:01] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:42:07] Starting GRN cancellation process
+[2025-06-24 18:42:07] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:42:07] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:42:07] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:42:07] Found 2 GRN items to cancel
+[2025-06-24 18:42:07] Updated GRN status to cancelled
+[2025-06-24 18:42:07] Created cancellation transaction with ID: 69
+[2025-06-24 18:42:07] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:42:07] Updated stock record: 1 rows affected
+[2025-06-24 18:42:07] Created transaction detail for product ID: 11
+[2025-06-24 18:42:07] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:42:07] Updated stock record: 1 rows affected
+[2025-06-24 18:42:07] Created transaction detail for product ID: 27
+[2025-06-24 18:42:07] Found 1 other active GRNs for this PO
+[2025-06-24 18:42:07] Error cancelling GRN: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'quantity_received' in 'field list'
+[2025-06-24 18:47:40] Starting GRN cancellation process
+[2025-06-24 18:47:40] POST data: Array
+(
+    [grn_id] => 36
+)
+
+[2025-06-24 18:47:40] Cancelling GRN ID: 36 with reason: 
+[2025-06-24 18:47:40] GRN data: Array
+(
+    [id] => 36
+    [grn_number] => GRN-20250624-9667
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:29:22
+    [updated_at] => 2025-06-24 20:29:22
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:47:40] Found 2 GRN items to cancel
+[2025-06-24 18:47:40] Updated GRN status to cancelled
+[2025-06-24 18:47:40] Created cancellation transaction with ID: 70
+[2025-06-24 18:47:40] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:47:40] Updated stock record: 1 rows affected
+[2025-06-24 18:47:40] Created transaction detail for product ID: 11
+[2025-06-24 18:47:40] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:47:40] Updated stock record: 1 rows affected
+[2025-06-24 18:47:40] Created transaction detail for product ID: 27
+[2025-06-24 18:47:40] Found 1 other active GRNs for this PO
+[2025-06-24 18:47:40] Purchase order items handling complete
+[2025-06-24 18:47:40] GRN cancellation completed successfully
+[2025-06-24 18:48:11] Starting GRN cancellation process
+[2025-06-24 18:48:11] POST data: Array
+(
+    [grn_id] => 39
+)
+
+[2025-06-24 18:48:11] Cancelling GRN ID: 39 with reason: 
+[2025-06-24 18:48:11] GRN data: Array
+(
+    [id] => 39
+    [grn_number] => GRN-20250624-8895
+    [purchase_order_id] => 10
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 21:15:46
+    [updated_at] => 2025-06-24 21:15:46
+    [subtotal] => 3000000.00
+    [tax_amount] => 472500.00
+    [discount_amount] => 300000.00
+    [total_amount] => 3197500.00
+    [delivery_charges] => 25000.00
+    [po_id] => 10
+    [po_status] => received
+)
+
+[2025-06-24 18:48:11] Found 2 GRN items to cancel
+[2025-06-24 18:48:11] Updated GRN status to cancelled
+[2025-06-24 18:48:11] Created cancellation transaction with ID: 71
+[2025-06-24 18:48:11] Processing cancellation for item: product_id=26, qty=50.00, batch=DEFAULT
+[2025-06-24 18:48:11] Updated stock record: 1 rows affected
+[2025-06-24 18:48:11] Created transaction detail for product ID: 26
+[2025-06-24 18:48:11] Processing cancellation for item: product_id=29, qty=50.00, batch=DEFAULT
+[2025-06-24 18:48:11] Updated stock record: 1 rows affected
+[2025-06-24 18:48:11] Created transaction detail for product ID: 29
+[2025-06-24 18:48:11] Found 1 other active GRNs for this PO
+[2025-06-24 18:48:11] Purchase order items handling complete
+[2025-06-24 18:48:11] GRN cancellation completed successfully
+[2025-06-24 18:49:03] Starting GRN cancellation process
+[2025-06-24 18:49:03] POST data: Array
+(
+    [grn_id] => 35
+)
+
+[2025-06-24 18:49:03] Cancelling GRN ID: 35 with reason: 
+[2025-06-24 18:49:03] GRN data: Array
+(
+    [id] => 35
+    [grn_number] => GRN-20250624-7289
+    [purchase_order_id] => 8
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:19:55
+    [updated_at] => 2025-06-24 20:19:55
+    [subtotal] => 3500000.00
+    [tax_amount] => 472500.00
+    [discount_amount] => 350000.00
+    [total_amount] => 3672500.00
+    [delivery_charges] => 50000.00
+    [po_id] => 8
+    [po_status] => received
+)
+
+[2025-06-24 18:49:03] Found 2 GRN items to cancel
+[2025-06-24 18:49:03] Updated GRN status to cancelled
+[2025-06-24 18:49:03] Created cancellation transaction with ID: 72
+[2025-06-24 18:49:03] Processing cancellation for item: product_id=11, qty=50.00, batch=123
+[2025-06-24 18:49:03] Updated stock record: 1 rows affected
+[2025-06-24 18:49:03] Created transaction detail for product ID: 11
+[2025-06-24 18:49:03] Processing cancellation for item: product_id=27, qty=50.00, batch=456
+[2025-06-24 18:49:03] Updated stock record: 1 rows affected
+[2025-06-24 18:49:03] Created transaction detail for product ID: 27
+[2025-06-24 18:49:03] Found 1 other active GRNs for this PO
+[2025-06-24 18:49:03] Purchase order items handling complete
+[2025-06-24 18:49:03] GRN cancellation completed successfully
+[2025-06-24 18:49:19] Starting GRN cancellation process
+[2025-06-24 18:49:19] POST data: Array
+(
+    [grn_id] => 38
+)
+
+[2025-06-24 18:49:19] Cancelling GRN ID: 38 with reason: 
+[2025-06-24 18:49:19] GRN data: Array
+(
+    [id] => 38
+    [grn_number] => GRN-20250624-5444
+    [purchase_order_id] => 10
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:45:23
+    [updated_at] => 2025-06-24 20:45:23
+    [subtotal] => 3000000.00
+    [tax_amount] => 472500.00
+    [discount_amount] => 300000.00
+    [total_amount] => 3197500.00
+    [delivery_charges] => 25000.00
+    [po_id] => 10
+    [po_status] => received
+)
+
+[2025-06-24 18:49:19] Found 2 GRN items to cancel
+[2025-06-24 18:49:19] Updated GRN status to cancelled
+[2025-06-24 18:49:19] Created cancellation transaction with ID: 73
+[2025-06-24 18:49:19] Processing cancellation for item: product_id=26, qty=50.00, batch=987
+[2025-06-24 18:49:19] Updated stock record: 1 rows affected
+[2025-06-24 18:49:19] Created transaction detail for product ID: 26
+[2025-06-24 18:49:19] Processing cancellation for item: product_id=29, qty=50.00, batch=987
+[2025-06-24 18:49:19] Updated stock record: 1 rows affected
+[2025-06-24 18:49:19] Created transaction detail for product ID: 29
+[2025-06-24 18:49:19] Found 0 other active GRNs for this PO
+[2025-06-24 18:49:19] Purchase order items handling complete
+[2025-06-24 18:49:19] GRN cancellation completed successfully
+[2025-06-24 18:49:31] Starting GRN cancellation process
+[2025-06-24 18:49:31] POST data: Array
+(
+    [grn_id] => 10
+)
+
+[2025-06-24 18:49:31] Cancelling GRN ID: 10 with reason: 
+[2025-06-24 18:49:31] GRN data: Array
+(
+    [id] => 10
+    [grn_number] => GRN-20250623-3801
+    [purchase_order_id] => 3
+    [received_date] => 2025-06-23
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-23 18:08:17
+    [updated_at] => 2025-06-23 18:08:17
+    [subtotal] => 0.00
+    [tax_amount] => 0.00
+    [discount_amount] => 0.00
+    [total_amount] => 0.00
+    [delivery_charges] => 0.00
+    [po_id] => 3
+    [po_status] => confirmed
+)
+
+[2025-06-24 18:49:31] Found 2 GRN items to cancel
+[2025-06-24 18:49:31] Updated GRN status to cancelled
+[2025-06-24 18:49:31] Created cancellation transaction with ID: 74
+[2025-06-24 18:49:31] Processing cancellation for item: product_id=11, qty=1.00, batch=123
+[2025-06-24 18:49:31] Updated stock record: 1 rows affected
+[2025-06-24 18:49:31] Created transaction detail for product ID: 11
+[2025-06-24 18:49:31] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:49:31] Updated stock record: 1 rows affected
+[2025-06-24 18:49:31] Created transaction detail for product ID: 27
+[2025-06-24 18:49:31] Found 1 other active GRNs for this PO
+[2025-06-24 18:49:31] Purchase order items handling complete
+[2025-06-24 18:49:31] GRN cancellation completed successfully
+[2025-06-24 18:49:39] Starting GRN cancellation process
+[2025-06-24 18:49:39] POST data: Array
+(
+    [grn_id] => 16
+)
+
+[2025-06-24 18:49:39] Cancelling GRN ID: 16 with reason: 
+[2025-06-24 18:49:39] GRN data: Array
+(
+    [id] => 16
+    [grn_number] => GRN-20250623-8835
+    [purchase_order_id] => 7
+    [received_date] => 2025-06-23
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-23 20:21:06
+    [updated_at] => 2025-06-23 20:21:06
+    [subtotal] => 0.00
+    [tax_amount] => 44100.00
+    [discount_amount] => 46000.00
+    [total_amount] => 48100.00
+    [delivery_charges] => 50000.00
+    [po_id] => 7
+    [po_status] => completed
+)
+
+[2025-06-24 18:49:39] Found 1 GRN items to cancel
+[2025-06-24 18:49:39] Updated GRN status to cancelled
+[2025-06-24 18:49:39] Created cancellation transaction with ID: 75
+[2025-06-24 18:49:39] Processing cancellation for item: product_id=11, qty=4.00, batch=DEFAULT
+[2025-06-24 18:49:39] Updated stock record: 1 rows affected
+[2025-06-24 18:49:39] Created transaction detail for product ID: 11
+[2025-06-24 18:49:39] Found 1 other active GRNs for this PO
+[2025-06-24 18:49:39] Purchase order items handling complete
+[2025-06-24 18:49:39] GRN cancellation completed successfully
+[2025-06-24 18:52:50] Starting GRN cancellation process
+[2025-06-24 18:52:50] POST data: Array
+(
+    [grn_id] => 11
+)
+
+[2025-06-24 18:52:50] Cancelling GRN ID: 11 with reason: 
+[2025-06-24 18:52:50] GRN data: Array
+(
+    [id] => 11
+    [grn_number] => GRN-20250623-9549
+    [purchase_order_id] => 3
+    [received_date] => 2025-06-23
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-23 18:10:15
+    [updated_at] => 2025-06-23 18:10:15
+    [subtotal] => 0.00
+    [tax_amount] => 0.00
+    [discount_amount] => 0.00
+    [total_amount] => 0.00
+    [delivery_charges] => 0.00
+    [po_id] => 3
+    [po_status] => confirmed
+)
+
+[2025-06-24 18:52:50] Found 2 GRN items to cancel
+[2025-06-24 18:52:50] Updated GRN status to cancelled
+[2025-06-24 18:52:50] Created cancellation transaction with ID: 76
+[2025-06-24 18:52:50] Processing cancellation for item: product_id=11, qty=1.00, batch=123
+[2025-06-24 18:52:50] Updated stock record: 1 rows affected
+[2025-06-24 18:52:50] Created transaction detail for product ID: 11
+[2025-06-24 18:52:50] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:52:50] Updated stock record: 1 rows affected
+[2025-06-24 18:52:50] Created transaction detail for product ID: 27
+[2025-06-24 18:52:50] Found 0 other active GRNs for this PO
+[2025-06-24 18:52:50] Updated PO status back to approved
+[2025-06-24 18:52:50] Purchase order items handling complete
+[2025-06-24 18:52:50] GRN cancellation completed successfully
+[2025-06-24 18:53:00] Starting GRN cancellation process
+[2025-06-24 18:53:00] POST data: Array
+(
+    [grn_id] => 37
+)
+
+[2025-06-24 18:53:00] Cancelling GRN ID: 37 with reason: 
+[2025-06-24 18:53:00] GRN data: Array
+(
+    [id] => 37
+    [grn_number] => GRN-20250624-1166
+    [purchase_order_id] => 9
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 20:33:39
+    [updated_at] => 2025-06-24 20:33:39
+    [subtotal] => 350000.00
+    [tax_amount] => 47250.00
+    [discount_amount] => 35000.00
+    [total_amount] => 367250.00
+    [delivery_charges] => 5000.00
+    [po_id] => 9
+    [po_status] => received
+)
+
+[2025-06-24 18:53:00] Found 2 GRN items to cancel
+[2025-06-24 18:53:00] Updated GRN status to cancelled
+[2025-06-24 18:53:00] Created cancellation transaction with ID: 77
+[2025-06-24 18:53:00] Processing cancellation for item: product_id=11, qty=5.00, batch=123
+[2025-06-24 18:53:00] Updated stock record: 1 rows affected
+[2025-06-24 18:53:00] Created transaction detail for product ID: 11
+[2025-06-24 18:53:00] Processing cancellation for item: product_id=27, qty=5.00, batch=456
+[2025-06-24 18:53:00] Updated stock record: 1 rows affected
+[2025-06-24 18:53:00] Created transaction detail for product ID: 27
+[2025-06-24 18:53:00] Found 0 other active GRNs for this PO
+[2025-06-24 18:53:00] Updated PO status back to approved
+[2025-06-24 18:53:00] Purchase order items handling complete
+[2025-06-24 18:53:00] GRN cancellation completed successfully
+[2025-06-24 18:53:11] Starting GRN cancellation process
+[2025-06-24 18:53:11] POST data: Array
+(
+    [grn_id] => 34
+)
+
+[2025-06-24 18:53:11] Cancelling GRN ID: 34 with reason: 
+[2025-06-24 18:53:11] GRN data: Array
+(
+    [id] => 34
+    [grn_number] => GRN-20250624-5367
+    [purchase_order_id] => 8
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 19:54:12
+    [updated_at] => 2025-06-24 19:54:12
+    [subtotal] => 3500000.00
+    [tax_amount] => 472500.00
+    [discount_amount] => 350000.00
+    [total_amount] => 3672500.00
+    [delivery_charges] => 50000.00
+    [po_id] => 8
+    [po_status] => received
+)
+
+[2025-06-24 18:53:11] Found 2 GRN items to cancel
+[2025-06-24 18:53:11] Updated GRN status to cancelled
+[2025-06-24 18:53:11] Created cancellation transaction with ID: 78
+[2025-06-24 18:53:11] Processing cancellation for item: product_id=11, qty=50.00, batch=123
+[2025-06-24 18:53:11] Updated stock record: 1 rows affected
+[2025-06-24 18:53:11] Created transaction detail for product ID: 11
+[2025-06-24 18:53:11] Processing cancellation for item: product_id=27, qty=50.00, batch=456
+[2025-06-24 18:53:11] Updated stock record: 1 rows affected
+[2025-06-24 18:53:11] Created transaction detail for product ID: 27
+[2025-06-24 18:53:11] Found 0 other active GRNs for this PO
+[2025-06-24 18:53:11] Updated PO status back to approved
+[2025-06-24 18:53:11] Purchase order items handling complete
+[2025-06-24 18:53:11] GRN cancellation completed successfully
+[2025-06-24 18:53:19] Starting GRN cancellation process
+[2025-06-24 18:53:19] POST data: Array
+(
+    [grn_id] => 17
+)
+
+[2025-06-24 18:53:19] Cancelling GRN ID: 17 with reason: 
+[2025-06-24 18:53:19] GRN data: Array
+(
+    [id] => 17
+    [grn_number] => GRN-20250624-5167
+    [purchase_order_id] => 7
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 16:18:02
+    [updated_at] => 2025-06-24 16:18:02
+    [subtotal] => 100000.00
+    [tax_amount] => 31500.00
+    [discount_amount] => 32857.14
+    [total_amount] => 134357.14
+    [delivery_charges] => 35714.29
+    [po_id] => 7
+    [po_status] => completed
+)
+
+[2025-06-24 18:53:19] Found 1 GRN items to cancel
+[2025-06-24 18:53:19] Updated GRN status to cancelled
+[2025-06-24 18:53:19] Created cancellation transaction with ID: 79
+[2025-06-24 18:53:19] Processing cancellation for item: product_id=27, qty=10.00, batch=DEFAULT
+[2025-06-24 18:53:19] Updated stock record: 1 rows affected
+[2025-06-24 18:53:19] Created transaction detail for product ID: 27
+[2025-06-24 18:53:19] Found 0 other active GRNs for this PO
+[2025-06-24 18:53:19] Updated PO status back to approved
+[2025-06-24 18:53:19] Purchase order items handling complete
+[2025-06-24 18:53:19] GRN cancellation completed successfully
+[2025-06-24 18:59:33] Starting GRN cancellation process
+[2025-06-24 18:59:33] POST data: Array
+(
+    [grn_id] => 40
+)
+
+[2025-06-24 18:59:33] Cancelling GRN ID: 40 with reason: 
+[2025-06-24 18:59:33] GRN data: Array
+(
+    [id] => 40
+    [grn_number] => GRN-20250624-3738
+    [purchase_order_id] => 11
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 21:58:44
+    [updated_at] => 2025-06-24 21:58:44
+    [subtotal] => 30000000.00
+    [tax_amount] => 4050000.00
+    [discount_amount] => 3000000.00
+    [total_amount] => 31075000.00
+    [delivery_charges] => 25000.00
+    [po_id] => 11
+    [po_status] => partial
+)
+
+[2025-06-24 18:59:33] Found 1 GRN items to cancel
+[2025-06-24 18:59:33] Updated GRN status to cancelled
+[2025-06-24 18:59:33] Created cancellation transaction with ID: 81
+[2025-06-24 18:59:33] Processing cancellation for item: product_id=11, qty=500.00, batch=65456
+[2025-06-24 18:59:33] Updated stock record: 1 rows affected
+[2025-06-24 18:59:33] Created transaction detail for product ID: 11
+[2025-06-24 18:59:33] Found 0 other active GRNs for this PO
+[2025-06-24 18:59:33] PO items: total_ordered=1000, total_received=0
+[2025-06-24 18:59:33] Setting PO status to: confirmed
+[2025-06-24 18:59:33] Updated PO status to confirmed
+[2025-06-24 18:59:33] Purchase order items handling complete
+[2025-06-24 18:59:33] GRN cancellation completed successfully
+[2025-06-24 19:07:16] Starting GRN cancellation process
+[2025-06-24 19:07:16] POST data: Array
+(
+    [grn_id] => 42
+)
+
+[2025-06-24 19:07:16] Cancelling GRN ID: 42 with reason: 
+[2025-06-24 19:07:16] GRN data: Array
+(
+    [id] => 42
+    [grn_number] => GRN-20250624-7331
+    [purchase_order_id] => 11
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 22:06:43
+    [updated_at] => 2025-06-24 22:06:43
+    [subtotal] => 15000000.00
+    [tax_amount] => 2025000.00
+    [discount_amount] => 1500000.00
+    [total_amount] => 15537500.00
+    [delivery_charges] => 12500.00
+    [po_id] => 11
+    [po_status] => partial
+)
+
+[2025-06-24 19:07:16] Found 1 GRN items to cancel
+[2025-06-24 19:07:16] Updated GRN status to cancelled
+[2025-06-24 19:07:16] Created cancellation transaction with ID: 84
+[2025-06-24 19:07:16] Processing cancellation for item: product_id=11, qty=250.00, batch=DEFAULT
+[2025-06-24 19:07:16] Updated stock record: 1 rows affected
+[2025-06-24 19:07:16] Created transaction detail for product ID: 11
+[2025-06-24 19:07:16] Found 0 other active GRNs for this PO
+[2025-06-24 19:07:16] PO items: total_ordered=1000, total_received=0
+[2025-06-24 19:07:16] Setting PO status to: confirmed
+[2025-06-24 19:07:16] Updated PO status to confirmed
+[2025-06-24 19:07:16] Updating received quantities for purchase order items
+[2025-06-24 19:07:17] Found received_quantity field in purchase_order_items table
+[2025-06-24 19:07:17] Updated received_quantity for PO item ID: 33
+[2025-06-24 19:07:17] Purchase order items handling complete
+[2025-06-24 19:07:17] GRN cancellation completed successfully
+[2025-06-24 19:11:53] Starting GRN cancellation process
+[2025-06-24 19:11:53] POST data: Array
+(
+    [grn_id] => 43
+)
+
+[2025-06-24 19:11:53] Cancelling GRN ID: 43 with reason: 
+[2025-06-24 19:11:53] GRN data: Array
+(
+    [id] => 43
+    [grn_number] => GRN-20250624-8634
+    [purchase_order_id] => 11
+    [received_date] => 2025-06-24
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 22:11:29
+    [updated_at] => 2025-06-24 22:11:29
+    [subtotal] => 60000000.00
+    [tax_amount] => 8100000.00
+    [discount_amount] => 6000000.00
+    [total_amount] => 62150000.00
+    [delivery_charges] => 50000.00
+    [po_id] => 11
+    [po_status] => received
+)
+
+[2025-06-24 19:11:53] Found 1 GRN items to cancel
+[2025-06-24 19:11:53] Updated GRN status to cancelled
+[2025-06-24 19:11:53] Created cancellation transaction with ID: 86
+[2025-06-24 19:11:53] Processing cancellation for item: product_id=11, qty=1000.00, batch=DEFAULT
+[2025-06-24 19:11:53] Updated stock record: 1 rows affected
+[2025-06-24 19:11:53] Created transaction detail for product ID: 11
+[2025-06-24 19:11:53] Found 0 other active GRNs for this PO
+[2025-06-24 19:11:53] PO items: total_ordered=1000, total_received=0
+[2025-06-24 19:11:53] Setting PO status to: confirmed
+[2025-06-24 19:11:53] Updated PO status to confirmed
+[2025-06-24 19:11:53] Updating received quantities for purchase order items
+[2025-06-24 19:11:53] Found received_quantity field in purchase_order_items table
+[2025-06-24 19:11:53] Updated received_quantity for PO item ID: 33
+[2025-06-24 19:11:53] Purchase order items handling complete
+[2025-06-24 19:11:53] GRN cancellation completed successfully
+[2025-06-24 19:13:07] Starting GRN cancellation process
+[2025-06-24 19:13:07] POST data: Array
+(
+    [grn_id] => 45
+)
+
+[2025-06-24 19:13:07] Cancelling GRN ID: 45 with reason: 
+[2025-06-24 19:13:07] GRN data: Array
+(
+    [id] => 45
+    [grn_number] => GRN-20250624-3350
+    [purchase_order_id] => 11
+    [received_date] => 2025-06-24
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-24 22:12:52
+    [updated_at] => 2025-06-24 22:12:52
+    [subtotal] => 30000000.00
+    [tax_amount] => 4050000.00
+    [discount_amount] => 3000000.00
+    [total_amount] => 31075000.00
+    [delivery_charges] => 25000.00
+    [po_id] => 11
+    [po_status] => received
+)
+
+[2025-06-24 19:13:07] Found 1 GRN items to cancel
+[2025-06-24 19:13:07] Updated GRN status to cancelled
+[2025-06-24 19:13:07] Created cancellation transaction with ID: 89
+[2025-06-24 19:13:07] Processing cancellation for item: product_id=11, qty=500.00, batch=DEFAULT
+[2025-06-24 19:13:07] Updated stock record: 1 rows affected
+[2025-06-24 19:13:07] Created transaction detail for product ID: 11
+[2025-06-24 19:13:07] Found 1 other active GRNs for this PO
+[2025-06-24 19:13:07] PO items: total_ordered=1000, total_received=500
+[2025-06-24 19:13:07] Setting PO status to: partial
+[2025-06-24 19:13:07] Updated PO status to partial
+[2025-06-24 19:13:07] Updating received quantities for purchase order items
+[2025-06-24 19:13:07] Found received_quantity field in purchase_order_items table
+[2025-06-24 19:13:07] Updated received_quantity for PO item ID: 33
+[2025-06-24 19:13:07] Purchase order items handling complete
+[2025-06-24 19:13:07] GRN cancellation completed successfully
+[2025-06-26 15:53:51] Starting GRN cancellation process
+[2025-06-26 15:53:51] POST data: Array
+(
+    [grn_id] => 46
+)
+
+[2025-06-26 15:53:51] Cancelling GRN ID: 46 with reason: 
+[2025-06-26 15:53:51] GRN data: Array
+(
+    [id] => 46
+    [grn_number] => GRN-20250626-8333
+    [purchase_order_id] => 12
+    [received_date] => 2025-06-26
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-06-26 18:53:05
+    [updated_at] => 2025-06-26 18:53:05
+    [subtotal] => 3000000.00
+    [tax_amount] => 405000.00
+    [discount_amount] => 300000.00
+    [total_amount] => 3155000.00
+    [delivery_charges] => 50000.00
+    [po_id] => 12
+    [po_status] => partial
+)
+
+[2025-06-26 15:53:51] Found 1 GRN items to cancel
+[2025-06-26 15:53:51] Updated GRN status to cancelled
+[2025-06-26 15:53:51] Created cancellation transaction with ID: 91
+[2025-06-26 15:53:51] Processing cancellation for item: product_id=11, qty=50.00, batch=DEFAULT
+[2025-06-26 15:53:51] Updated stock record: 1 rows affected
+[2025-06-26 15:53:51] Created transaction detail for product ID: 11
+[2025-06-26 15:53:51] Found 0 other active GRNs for this PO
+[2025-06-26 15:53:51] PO items: total_ordered=100, total_received=0
+[2025-06-26 15:53:51] Setting PO status to: confirmed
+[2025-06-26 15:53:51] Updated PO status to confirmed
+[2025-06-26 15:53:51] Updating received quantities for purchase order items
+[2025-06-26 15:53:51] Found received_quantity field in purchase_order_items table
+[2025-06-26 15:53:51] Updated received_quantity for PO item ID: 34
+[2025-06-26 15:53:51] Purchase order items handling complete
+[2025-06-26 15:53:51] GRN cancellation completed successfully
+[2025-07-15 18:39:41] Starting GRN cancellation process
+[2025-07-15 18:39:41] POST data: Array
+(
+    [grn_id] => 3
+)
+
+[2025-07-15 18:39:41] Cancelling GRN ID: 3 with reason: 
+[2025-07-15 18:39:41] GRN data: Array
+(
+    [id] => 3
+    [grn_number] => GRN-20250715-2692
+    [purchase_order_id] => 2
+    [received_date] => 2025-07-15
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [invoice_status] => pending
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-07-15 21:38:03
+    [updated_at] => 2025-07-15 21:38:03
+    [subtotal] => 3000000.00
+    [tax_amount] => 405000.00
+    [discount_amount] => 300000.00
+    [total_amount] => 3533571.43
+    [delivery_charges] => 428571.43
+    [po_id] => 2
+    [po_status] => received
+)
+
+[2025-07-15 18:39:41] Found 1 GRN items to cancel
+[2025-07-15 18:39:41] Updated GRN status to cancelled
+[2025-07-15 18:39:41] Created cancellation transaction with ID: 52
+[2025-07-15 18:39:41] Processing cancellation for item: product_id=11, qty=50.00, batch=123
+[2025-07-15 18:39:41] Updated stock record: 1 rows affected
+[2025-07-15 18:39:41] Created transaction detail for product ID: 11
+[2025-07-15 18:39:41] Found 1 other active GRNs for this PO
+[2025-07-15 18:39:41] PO items: total_ordered=200, total_received=150
+[2025-07-15 18:39:41] Setting PO status to: partial
+[2025-07-15 18:39:41] Updated PO status to partial
+[2025-07-15 18:39:41] Updating received quantities for purchase order items
+[2025-07-15 18:39:41] Found received_quantity field in purchase_order_items table
+[2025-07-15 18:39:41] Updated received_quantity for PO item ID: 5
+[2025-07-15 18:39:41] Purchase order items handling complete
+[2025-07-15 18:39:41] GRN cancellation completed successfully
+[2025-07-15 18:39:56] Starting GRN cancellation process
+[2025-07-15 18:39:56] POST data: Array
+(
+    [grn_id] => 2
+)
+
+[2025-07-15 18:39:56] Cancelling GRN ID: 2 with reason: 
+[2025-07-15 18:39:56] GRN data: Array
+(
+    [id] => 2
+    [grn_number] => GRN-20250715-3404
+    [purchase_order_id] => 2
+    [received_date] => 2025-07-15
+    [location_id] => 9
+    [notes] => 
+    [status] => completed
+    [invoice_status] => pending
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-07-15 21:35:11
+    [updated_at] => 2025-07-15 21:35:11
+    [subtotal] => 4000000.00
+    [tax_amount] => 540000.00
+    [discount_amount] => 400000.00
+    [total_amount] => 4711428.57
+    [delivery_charges] => 571428.57
+    [po_id] => 2
+    [po_status] => partial
+)
+
+[2025-07-15 18:39:56] Found 2 GRN items to cancel
+[2025-07-15 18:39:56] Updated GRN status to cancelled
+[2025-07-15 18:39:56] Created cancellation transaction with ID: 53
+[2025-07-15 18:39:56] Processing cancellation for item: product_id=11, qty=50.00, batch=123
+[2025-07-15 18:39:56] Updated stock record: 1 rows affected
+[2025-07-15 18:39:56] Created transaction detail for product ID: 11
+[2025-07-15 18:39:56] Processing cancellation for item: product_id=30, qty=100.00, batch=321
+[2025-07-15 18:39:56] Updated stock record: 1 rows affected
+[2025-07-15 18:39:56] Created transaction detail for product ID: 30
+[2025-07-15 18:39:56] Found 0 other active GRNs for this PO
+[2025-07-15 18:39:56] PO items: total_ordered=200, total_received=0
+[2025-07-15 18:39:56] Setting PO status to: confirmed
+[2025-07-15 18:39:56] Updated PO status to confirmed
+[2025-07-15 18:39:56] Updating received quantities for purchase order items
+[2025-07-15 18:39:56] Found received_quantity field in purchase_order_items table
+[2025-07-15 18:39:56] Updated received_quantity for PO item ID: 5
+[2025-07-15 18:39:56] Updated received_quantity for PO item ID: 6
+[2025-07-15 18:39:56] Purchase order items handling complete
+[2025-07-15 18:39:56] GRN cancellation completed successfully
+[2025-07-15 18:40:09] Starting GRN cancellation process
+[2025-07-15 18:40:09] POST data: Array
+(
+    [grn_id] => 1
+)
+
+[2025-07-15 18:40:09] Cancelling GRN ID: 1 with reason: 
+[2025-07-15 18:40:09] GRN data: Array
+(
+    [id] => 1
+    [grn_number] => GRN-20250715-3666
+    [purchase_order_id] => 1
+    [received_date] => 2025-07-15
+    [location_id] => 7
+    [notes] => 
+    [status] => completed
+    [invoice_status] => pending
+    [created_by] => 1
+    [updated_by] => 
+    [created_at] => 2025-07-15 21:34:05
+    [updated_at] => 2025-07-15 21:34:05
+    [subtotal] => 7000000.00
+    [tax_amount] => 945000.00
+    [discount_amount] => 700000.00
+    [total_amount] => 8245000.00
+    [delivery_charges] => 1000000.00
+    [po_id] => 1
+    [po_status] => received
+)
+
+[2025-07-15 18:40:09] Found 2 GRN items to cancel
+[2025-07-15 18:40:09] Updated GRN status to cancelled
+[2025-07-15 18:40:09] Created cancellation transaction with ID: 54
+[2025-07-15 18:40:09] Processing cancellation for item: product_id=30, qty=100.00, batch=123
+[2025-07-15 18:40:09] Updated stock record: 1 rows affected
+[2025-07-15 18:40:09] Created transaction detail for product ID: 30
+[2025-07-15 18:40:09] Processing cancellation for item: product_id=11, qty=100.00, batch=321
+[2025-07-15 18:40:09] Updated stock record: 1 rows affected
+[2025-07-15 18:40:09] Created transaction detail for product ID: 11
+[2025-07-15 18:40:09] Found 0 other active GRNs for this PO
+[2025-07-15 18:40:09] PO items: total_ordered=200, total_received=0
+[2025-07-15 18:40:09] Setting PO status to: confirmed
+[2025-07-15 18:40:09] Updated PO status to confirmed
+[2025-07-15 18:40:09] Updating received quantities for purchase order items
+[2025-07-15 18:40:09] Found received_quantity field in purchase_order_items table
+[2025-07-15 18:40:09] Updated received_quantity for PO item ID: 3
+[2025-07-15 18:40:09] Updated received_quantity for PO item ID: 4
+[2025-07-15 18:40:09] Purchase order items handling complete
+[2025-07-15 18:40:09] GRN cancellation completed successfully

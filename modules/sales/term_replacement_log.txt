@@ -1,0 +1,83 @@
+Term Replacement Log - 2025-07-29 17:57:04
+
+=== SESSION: 2025-07-29 20:48 ===
+Sales Module Terminology Refactor - Continued
+
+Issues identified and fixed:
+1. Found comment in cancel_sales_invoice.php: "This was a full invoice for the entire PO" - Added replacement mapping
+2. Found JavaScript data attribute in sales_invoice_from_order.php and sales_invoice_from_delivery_note.php: data-po-quantity - Added replacement mapping
+
+All identified issues have been fixed by adding the appropriate mappings to replace_terms.php and running the script.
+
+Starting term replacement in sales module files...
+Starting term replacement in sales module files...
+No changes: approve_sales_return.php
+No changes: cancel_delivery_note.php
+No changes: cancel_delivery_note_fixed.php
+No changes: cancel_sales_invoice.php
+No changes: cancel_sales_return.php
+No changes: delete_customer.php
+No changes: delete_customer_fixed.php
+No changes: delete_sales_order.php
+No changes: delete_sales_return.php
+No changes: get_customer_details.php
+No changes: get_customer_invoices.php
+No changes: get_customer_overpayment.php
+No changes: get_customer_target_invoices.php
+No changes: get_invoice_delivery_charges.php
+No changes: get_invoice_items_for_return.php
+No changes: get_invoice_location.php
+No changes: get_next_customer_code.php
+No changes: get_product_by_barcode.php
+No changes: get_product_details.php
+No changes: get_products.php
+No changes: get_sales_returns.php
+No changes: process_customer_refund.php
+No changes: save_customer.php
+No changes: save_delivery_note.php
+No changes: save_sales_invoice.php
+No changes: save_sales_invoice_from_delivery_note.php
+No changes: save_sales_invoice_from_order.php
+No changes: save_sales_order.php
+No changes: save_sales_return.php
+No changes: toggle_customer_status.php
+No changes: verify_discount_pin.php
+No changes: customer_detail.php
+No changes: customer_refund.php
+No changes: customer_statement.php
+No changes: customers.php
+No changes: delivery_note_create.php
+No changes: delivery_note_detail.php
+No changes: delivery_notes.php
+No changes: index.php
+No changes: print_sales_return.php
+No changes: sales_invoice_create.php
+No changes: sales_invoice_detail.php
+Updated: sales_invoice_from_delivery_note.php (32 replacements)
+  - 'sales_orders' → 'sales_orders': 1 occurrences
+  - 'sales_invoices' → 'sales_invoices': 5 occurrences
+  - 'sales_invoice_items' → 'sales_invoice_items': 12 occurrences
+  - 'sales_invoices.php' → 'sales_invoices.php': 3 occurrences
+  - 'sales_order_id' → 'sales_order_id': 5 occurrences
+  - 'sales_invoice_id' → 'sales_invoice_id': 4 occurrences
+  - 'row.data('po-quantity')' → 'row.data('so-quantity')': 2 occurrences
+Updated: sales_invoice_from_order.php (33 replacements)
+  - 'sales_orders' → 'sales_orders': 3 occurrences
+  - 'sales_order_items' → 'sales_order_items': 2 occurrences
+  - 'sales_invoices' → 'sales_invoices': 5 occurrences
+  - 'sales_invoice_items' → 'sales_invoice_items': 8 occurrences
+  - 'sales_orders.php' → 'sales_orders.php': 2 occurrences
+  - 'sales_invoices.php' → 'sales_invoices.php': 3 occurrences
+  - 'sales_order_id' → 'sales_order_id': 5 occurrences
+  - 'sales_invoice_id' → 'sales_invoice_id': 4 occurrences
+  - 'row.data('po-quantity')' → 'row.data('so-quantity')': 1 occurrences
+No changes: sales_invoices.php
+No changes: sales_order_create.php
+No changes: sales_order_detail.php
+No changes: sales_orders.php
+No changes: sales_return_create.php
+No changes: sales_return_detail.php
+No changes: sales_returns.php
+No changes: settings.php
+Term replacement completed.
+Log file created at: C:\xampp\htdocs\Solar Business\modules\sales/term_replacement_log.txt

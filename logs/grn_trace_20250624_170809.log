@@ -1,0 +1,463 @@
+GRN Trace Log - 2025-06-24 17:08:09
+
+
+--- GRN Header Insert ---
+SQL: INSERT INTO goods_receiving_notes 
+              (purchase_order_id, grn_number, grn_date, supplier_id, location_id, notes, created_by) 
+              VALUES 
+              (:purchase_order_id, :grn_number, :grn_date, :supplier_id, :location_id, :notes, :created_by)
+Parameters: Array
+(
+    [:purchase_order_id] => 8
+    [:grn_number] => GRN-20250624-001
+    [:grn_date] => 2025-06-24
+    [:supplier_id] => 1
+    [:location_id] => 1
+    [:notes] => Test GRN
+    [:created_by] => 1
+)
+
+Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grn_date' in 'field list'
+
+--- GRN Item Insert ---
+SQL: INSERT INTO goods_receiving_note_items 
+                  (grn_id, purchase_order_item_id, product_id, quantity_ordered, quantity_received, 
+                   unit_price, total, batch_number, expiry_date, notes, created_at) 
+                  VALUES 
+                  (:grn_id, :purchase_order_item_id, :product_id, :quantity_ordered, :quantity_received, 
+                   :unit_price, :total, :batch_number, :expiry_date, :notes, NOW())
+Parameters: Array
+(
+    [:grn_id] => 1
+    [:purchase_order_item_id] => 1
+    [:product_id] => 1
+    [:quantity_ordered] => 10
+    [:quantity_received] => 5
+    [:unit_price] => 100
+    [:total] => 500
+    [:batch_number] => BATCH123
+    [:expiry_date] => 2025-12-31
+    [:notes] => Test notes
+)
+
+Binding :grn_id = 1
+Binding :purchase_order_item_id = 1
+Binding :product_id = 1
+Binding :quantity_ordered = 10
+Binding :quantity_received = 5
+Binding :unit_price = 100
+Binding :total = 500
+Binding :batch_number = BATCH123
+Binding :expiry_date = 2025-12-31
+Binding :notes = Test notes
+All parameters bound successfully!
+
+--- Inventory Transaction Insert ---
+SQL: INSERT INTO inventory_transactions 
+              (transaction_number, transaction_date, transaction_type_id, reference_type, reference_id, 
+               notes, created_by) 
+              VALUES 
+              (:transaction_number, :transaction_date, :transaction_type_id, :reference_type, :reference_id, 
+               :notes, :created_by)
+Parameters: Array
+(
+    [:transaction_number] => TXN-20250624-001
+    [:transaction_date] => 2025-06-24
+    [:transaction_type_id] => 1
+    [:reference_type] => GRN
+    [:reference_id] => 1
+    [:notes] => Test transaction
+    [:created_by] => 1
+)
+
+Binding :transaction_number = TXN-20250624-001
+Binding :transaction_date = 2025-06-24
+Binding :transaction_type_id = 1
+Binding :reference_type = GRN
+Binding :reference_id = 1
+Binding :notes = Test transaction
+Binding :created_by = 1
+All parameters bound successfully!
+
+--- Transaction Detail Insert ---
+SQL: INSERT INTO inventory_transaction_details 
+                    (transaction_id, product_id, to_location_id, quantity, uom_id, 
+                     unit_cost, total_cost, batch_number, expiry_date, notes, created_by) 
+                    VALUES 
+                    (:txn_id, :product_id, :to_location_id, :quantity, :uom_id, 
+                     :unit_cost, :total_cost, :batch_number, :expiry_date, :notes, :created_by)
+Parameters: Array
+(
+    [:txn_id] => 1
+    [:product_id] => 1
+    [:to_location_id] => 1
+    [:quantity] => 5
+    [:uom_id] => 1
+    [:unit_cost] => 100
+    [:total_cost] => 500
+    [:batch_number] => BATCH123
+    [:expiry_date] => 2025-12-31
+    [:notes] => Test notes
+    [:created_by] => 1
+)
+
+Binding :txn_id = 1
+Binding :product_id = 1
+Binding :to_location_id = 1
+Binding :quantity = 5
+Binding :uom_id = 1
+Binding :unit_cost = 100
+Binding :total_cost = 500
+Binding :batch_number = BATCH123
+Binding :expiry_date = 2025-12-31
+Binding :notes = Test notes
+Binding :created_by = 1
+All parameters bound successfully!
+
+--- Stock Update (DEFAULT batch) ---
+SQL: UPDATE inventory_stock SET 
+               quantity = quantity + :quantity, 
+               available_quantity = available_quantity + :available_quantity, 
+               total_value = total_value + :total_value, 
+               updated_by = :updated_by, 
+               updated_at = NOW() 
+               WHERE product_id = :product_id AND location_id = :location_id AND (batch_number IS NULL OR batch_number = 'DEFAULT')
+Parameters: Array
+(
+    [:quantity] => 5
+    [:available_quantity] => 5
+    [:total_value] => 500
+    [:updated_by] => 1
+    [:product_id] => 1
+    [:location_id] => 1
+)
+
+Binding :quantity = 5
+Binding :available_quantity = 5
+Binding :total_value = 500
+Binding :updated_by = 1
+Binding :product_id = 1
+Binding :location_id = 1
+All parameters bound successfully!
+
+--- Stock Insert ---
+SQL: INSERT INTO inventory_stock 
+               (product_id, location_id, batch_number, expiry_date, quantity, available_quantity, 
+                unit_cost, total_value, created_by, created_at) 
+               VALUES 
+               (:product_id, :location_id, :batch_number, :expiry_date, :quantity, :available_quantity, 
+                :unit_cost, :total_value, :created_by, NOW())
+Parameters: Array
+(
+    [:product_id] => 1
+    [:location_id] => 1
+    [:batch_number] => BATCH123
+    [:expiry_date] => 2025-12-31
+    [:quantity] => 5
+    [:available_quantity] => 5
+    [:unit_cost] => 100
+    [:total_value] => 500
+    [:created_by] => 1
+)
+
+Binding :product_id = 1
+Binding :location_id = 1
+Binding :batch_number = BATCH123
+Binding :expiry_date = 2025-12-31
+Binding :quantity = 5
+Binding :available_quantity = 5
+Binding :unit_cost = 100
+Binding :total_value = 500
+Binding :created_by = 1
+All parameters bound successfully!
+
+--- Update Purchase Order Item Status ---
+SQL: UPDATE purchase_order_items 
+                SET status = :status, 
+                    received_quantity = received_quantity + :received_quantity, 
+                    updated_by = :updated_by, 
+                    updated_at = NOW() 
+                WHERE id = :po_item_id
+Parameters: Array
+(
+    [:status] => Received
+    [:received_quantity] => 5
+    [:updated_by] => 1
+    [:po_item_id] => 1
+)
+
+Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'
+
+--- Update Purchase Order Status ---
+SQL: UPDATE purchase_orders 
+            SET status = :status, 
+                updated_by = :updated_by, 
+                updated_at = NOW() 
+            WHERE id = :po_id
+Parameters: Array
+(
+    [:status] => Received
+    [:updated_by] => 1
+    [:po_id] => 8
+)
+
+Binding :status = Received
+Binding :updated_by = 1
+Binding :po_id = 8
+All parameters bound successfully!
+
+SQL Statement #1 (insertGRN)
+SQL: INSERT INTO goods_receiving_notes 
+                      (grn_number, purchase_order_id, received_date, location_id, notes, 
+                       subtotal, tax_amount, discount_amount, delivery_charges, total_amount, 
+                       status, created_by, created_at) 
+                      VALUES 
+                      (:grn_number, :purchase_order_id, :received_date, :location_id, :notes, 
+                       :subtotal, :tax_amount, :discount_amount, :delivery_charges, :total_amount, 
+                       'completed', :created_by, NOW())
+Parameters: Array
+(
+    [0] => :grn_number
+    [1] => :purchase_order_id
+    [2] => :received_date
+    [3] => :location_id
+    [4] => :notes
+    [5] => :subtotal
+    [6] => :tax_amount
+    [7] => :discount_amount
+    [8] => :delivery_charges
+    [9] => :total_amount
+    [10] => :created_by
+)
+
+
+SQL Statement #2 (insertTxn)
+SQL: INSERT INTO inventory_transactions 
+                  (transaction_number, transaction_date, transaction_type_id, reference_type, reference_id, notes, created_by) 
+                  VALUES 
+                  (:transaction_number, NOW(), :transaction_type_id, :reference_type, :reference_id, :notes, :created_by)
+Parameters: Array
+(
+    [0] => :transaction_number
+    [1] => :transaction_type_id
+    [2] => :reference_type
+    [3] => :reference_id
+    [4] => :notes
+    [5] => :created_by
+)
+
+
+SQL Statement #3 (insertGRNItem)
+SQL: INSERT INTO goods_receiving_note_items 
+                      (grn_id, purchase_order_item_id, product_id, quantity_ordered, quantity_received, 
+                       unit_price, tax_rate, tax_amount, discount_percent, discount_amount, subtotal, total, 
+                       batch_number, expiry_date, notes, created_at) 
+                      VALUES 
+                      (:grn_id, :purchase_order_item_id, :product_id, :quantity_ordered, :quantity_received, 
+                       :unit_price, :tax_rate, :tax_amount, :discount_percent, :discount_amount, :subtotal, :total, 
+                       :batch_number, :expiry_date, :notes, NOW())
+Parameters: Array
+(
+    [0] => :grn_id
+    [1] => :purchase_order_item_id
+    [2] => :product_id
+    [3] => :quantity_ordered
+    [4] => :quantity_received
+    [5] => :unit_price
+    [6] => :tax_rate
+    [7] => :tax_amount
+    [8] => :discount_percent
+    [9] => :discount_amount
+    [10] => :subtotal
+    [11] => :total
+    [12] => :batch_number
+    [13] => :expiry_date
+    [14] => :notes
+)
+
+
+SQL Statement #4 (insertStock)
+SQL: INSERT INTO inventory_stock 
+                    (product_id, location_id, batch_number, expiry_date, quantity, available_quantity, 
+                     unit_cost, total_value, created_by, created_at) 
+                    VALUES 
+                    (:product_id, :location_id, :batch_number, :expiry_date, :quantity, :available_quantity, 
+                     :unit_cost, :total_value, :created_by, NOW())
+Parameters: Array
+(
+    [0] => :product_id
+    [1] => :location_id
+    [2] => :batch_number
+    [3] => :expiry_date
+    [4] => :quantity
+    [5] => :available_quantity
+    [6] => :unit_cost
+    [7] => :total_value
+    [8] => :created_by
+)
+
+
+SQL Statement #5 (insertTxnDetail)
+SQL: INSERT INTO inventory_transaction_details 
+                        (transaction_id, product_id, to_location_id, quantity, uom_id, 
+                         unit_cost, total_cost, batch_number, expiry_date, notes, created_by) 
+                        VALUES 
+                        (:txn_id, :product_id, :to_location_id, :quantity, :uom_id, 
+                         :unit_cost, :total_cost, :batch_number, :expiry_date, :notes, :created_by)
+Parameters: Array
+(
+    [0] => :txn_id
+    [1] => :product_id
+    [2] => :to_location_id
+    [3] => :quantity
+    [4] => :uom_id
+    [5] => :unit_cost
+    [6] => :total_cost
+    [7] => :batch_number
+    [8] => :expiry_date
+    [9] => :notes
+    [10] => :created_by
+)
+
+
+SQL Statement #6 (insertStock)
+SQL: INSERT INTO inventory_stock 
+                           (product_id, location_id, batch_number, expiry_date, quantity, available_quantity, 
+                            unit_cost, total_value, created_by, created_at) 
+                           VALUES 
+                           (:product_id, :location_id, :batch_number, :expiry_date, :quantity, :available_quantity, 
+                            :unit_cost, :total_value, :created_by, NOW())
+Parameters: Array
+(
+    [0] => :product_id
+    [1] => :location_id
+    [2] => :batch_number
+    [3] => :expiry_date
+    [4] => :quantity
+    [5] => :available_quantity
+    [6] => :unit_cost
+    [7] => :total_value
+    [8] => :created_by
+)
+
+
+SQL Statement #7 (insertTxnDetail)
+SQL: INSERT INTO inventory_transaction_details 
+                        (transaction_id, product_id, to_location_id, quantity, uom_id, 
+                         unit_cost, total_cost, batch_number, expiry_date, notes, created_by) 
+                        VALUES 
+                        (:txn_id, :product_id, :to_location_id, :quantity, :uom_id, 
+                         :unit_cost, :total_cost, :batch_number, :expiry_date, :notes, :created_by)
+Parameters: Array
+(
+    [0] => :txn_id
+    [1] => :product_id
+    [2] => :to_location_id
+    [3] => :quantity
+    [4] => :uom_id
+    [5] => :unit_cost
+    [6] => :total_cost
+    [7] => :batch_number
+    [8] => :expiry_date
+    [9] => :notes
+    [10] => :created_by
+)
+
+
+SQL Statement #8 (updateGRN)
+SQL: UPDATE goods_receiving_notes SET 
+                      grn_number = :grn_number,
+                      purchase_order_id = :purchase_order_id,
+                      received_date = :received_date,
+                      location_id = :location_id,
+                      notes = :notes,
+                      subtotal = :subtotal,
+                      tax_amount = :tax_amount,
+                      discount_amount = :discount_amount,
+                      delivery_charges = :delivery_charges,
+                      total_amount = :total_amount,
+                      updated_by = :updated_by,
+                      updated_at = NOW()
+                      WHERE id = :grn_id
+Parameters: Array
+(
+    [0] => :grn_number
+    [1] => :purchase_order_id
+    [2] => :received_date
+    [3] => :location_id
+    [4] => :notes
+    [5] => :subtotal
+    [6] => :tax_amount
+    [7] => :discount_amount
+    [8] => :delivery_charges
+    [9] => :total_amount
+    [10] => :updated_by
+    [11] => :grn_id
+)
+
+
+SQL Statement #9 (updateStock)
+SQL: UPDATE inventory_stock SET 
+                           quantity = quantity + :quantity, 
+                           available_quantity = available_quantity + :available_quantity, 
+                           total_value = total_value + :total_value, 
+                           updated_by = :updated_by, 
+                           updated_at = NOW() 
+                           WHERE product_id = :product_id AND location_id = :location_id
+Parameters: Array
+(
+    [0] => :quantity
+    [1] => :available_quantity
+    [2] => :total_value
+    [3] => :updated_by
+    [4] => :product_id
+    [5] => :location_id
+)
+
+
+SQL Statement #10 (updatePO)
+SQL: UPDATE purchase_orders SET status = 'received' WHERE id = :po_id
+Parameters: Array
+(
+    [0] => :po_id
+)
+
+
+SQL Statement #11 (updatePO);
+        $stmtUpdatePO->bindValue(':po_id', $purchase_order_id);
+        $stmtUpdatePO->execute();
+        debug_log("Purchase order status updated to 'received'");
+    } else {
+        $updatePO)
+SQL: UPDATE purchase_orders SET status = 'partial' WHERE id = :po_id AND status != 'received'
+Parameters: Array
+(
+    [0] => :po_id
+)
+
+
+Duplicate parameter bindings: Array
+(
+    [grn_number] => 3
+    [grn_id] => 4
+    [po_id] => 6
+    [purchase_order_id] => 2
+    [received_date] => 2
+    [location_id] => 5
+    [notes] => 5
+    [subtotal] => 3
+    [tax_amount] => 3
+    [discount_amount] => 3
+    [delivery_charges] => 2
+    [total_amount] => 2
+    [updated_by] => 2
+    [created_by] => 4
+    [product_id] => 7
+    [batch_number] => 5
+    [expiry_date] => 3
+    [quantity] => 3
+    [available_quantity] => 2
+    [total_value] => 2
+    [unit_cost] => 2
+)
+

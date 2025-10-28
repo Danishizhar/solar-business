@@ -1,0 +1,66 @@
+[22-Mar-2025 16:34:36 Europe/Berlin] Database error in list_accounts.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sbm.journal_entry_items' doesn't exist
+[22-Mar-2025 16:35:31 Europe/Berlin] Database error in list_accounts.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ba.ifsc_code' in 'field list'
+[22-Mar-2025 16:39:59 Europe/Berlin] Database error in get_account.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ba.ifsc_code' in 'field list'
+[22-Mar-2025 16:40:01 Europe/Berlin] Database error in get_account.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ba.ifsc_code' in 'field list'
+[22-Mar-2025 16:40:05 Europe/Berlin] Received POST data: Array
+(
+    [id] => 1
+)
+
+[22-Mar-2025 16:40:05 Europe/Berlin] Database error in delete_account.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+[22-Mar-2025 16:41:02 Europe/Berlin] Database error in get_account.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ba.ifsc_code' in 'field list'
+[22-Mar-2025 16:41:06 Europe/Berlin] Database error in get_account.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ba.ifsc_code' in 'field list'
+[22-Mar-2025 16:42:00 Europe/Berlin] Budget data: Array
+(
+    [id] => 4
+    [fiscal_year] => 1
+    [account_id] => 3
+    [cost_center_id] => 
+    [period] => yearly
+    [amount] => 100000.00
+    [notes] => 
+    [status] => 1
+    [created_at] => 2025-03-20 00:37:02
+    [updated_at] => 2025-03-22 20:11:57
+    [created_by] => 1
+    [updated_by] => 1
+    [fiscal_year_code] => FY2025
+    [account_code] => 1003
+    [account_name] => Accounts Receivable
+    [cost_center_code] => 
+    [cost_center_name] => 
+    [created_by_name] => admin
+    [updated_by_name] => admin
+    [amounts] => Array
+        (
+        )
+
+)
+
+[22-Mar-2025 16:42:12 Europe/Berlin] Budget data: Array
+(
+    [id] => 4
+    [fiscal_year] => 1
+    [account_id] => 3
+    [cost_center_id] => 
+    [period] => yearly
+    [amount] => 100000.00
+    [notes] => 
+    [status] => 1
+    [created_at] => 2025-03-20 00:37:02
+    [updated_at] => 2025-03-22 20:11:57
+    [created_by] => 1
+    [updated_by] => 1
+    [fiscal_year_code] => FY2025
+    [account_code] => 1003
+    [account_name] => Accounts Receivable
+    [cost_center_code] => 
+    [cost_center_name] => 
+    [created_by_name] => admin
+    [updated_by_name] => admin
+    [amounts] => Array
+        (
+        )
+
+)
+

@@ -1,0 +1,314 @@
+Debug log started at 2025-07-28 16:30:17
+Foreign key constraint products_ibfk_1 does not exist
+Starting transaction
+Auto generate product code: Yes
+Product code prefix: PR
+Form data: {"product_id":"","auto_generate_product_code":"1","product_code_prefix":"PR","product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":"3","brand_id":"8","description":"","short_description":"","weight":"","length":"","width":"","height":"","is_active":"1","cost_price":"300000","selling_price":"","min_selling_price":"","wholesale_price":"","min_wholesale_qty":"","tax_rate":"15","base_uom_id":"","min_stock_level":"5","max_stock_level":"","reorder_point":"10","purchase_uom_id":"","sales_uom_id":"","enable_stock_alerts":"1"}
+Processed form data: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"base_uom_id":null,"cost_price":300000,"selling_price":0,"has_variants":0}
+SQL Query: INSERT INTO products (
+        product_name, product_code, barcode, category_id, brand_id, description, short_description,
+        base_uom_id, purchase_uom_id, sales_uom_id, cost_price, selling_price, min_selling_price,
+        wholesale_price, min_wholesale_qty, tax_rate, is_taxable, min_stock_level, reorder_point, max_stock_level,
+        track_batches, track_expiry, track_serial, enable_stock_alerts,
+        is_service, is_active, image_path,
+        weight, length, width, height, status, created_by, updated_by
+    ) VALUES (
+        :product_name, :product_code, :barcode, :category_id, :brand_id, :description, :short_description,
+        :base_uom_id, :purchase_uom_id, :sales_uom_id, :cost_price, :selling_price, :min_selling_price,
+        :wholesale_price, :min_wholesale_qty, :tax_rate, :is_taxable, :min_stock_level, :reorder_point, :max_stock_level,
+        :track_batches, :track_expiry, :track_serial, :enable_stock_alerts,
+        :is_service, :is_active, :image_path,
+        :weight, :length, :width, :height, :status, :created_by, :updated_by
+    )
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":"",":short_description":"",":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":"300000",":selling_price":"0",":min_selling_price":"0",":wholesale_price":"0",":min_wholesale_qty":0,":tax_rate":"15",":discount_percent":null,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":is_service":0,":is_active":1,":image_path":null,":weight":null,":length":null,":width":null,":height":null,":status":1,":created_by":"1",":updated_by":"1"}
+SQL executed successfully
+New product ID: 1
+Transaction committed successfully
+Debug log started at 2025-07-28 16:30:58
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":10,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:30:58
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":10,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
+Debug log started at 2025-07-28 16:34:15
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":10,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:34:15
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":3,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
+Debug log started at 2025-07-28 16:34:18
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":10,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:34:18
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":3,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
+Debug log started at 2025-07-28 16:34:19
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":10,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:34:19
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":3,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
+Debug log started at 2025-07-28 16:34:21
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":10,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:34:21
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":3,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":10,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
+Debug log started at 2025-07-28 16:34:55
+Starting transaction
+Image upload check: yes
+Image error: 4
+Image name: 
+Product values: {"product_name":"Inverex 6kw","product_code":"PR000001","barcode":"1412094646504","category_id":3,"brand_id":8,"description":null,"short_description":null,"base_uom_id":null,"purchase_uom_id":null,"sales_uom_id":null,"cost_price":200000,"selling_price":300000,"min_selling_price":275000,"tax_rate":0,"is_taxable":0,"min_stock_level":5,"reorder_point":5,"max_stock_level":0,"is_service":0,"is_active":1,"has_variants":0,"is_variant":0,"parent_product_id":null,"image_path":null,"weight":null,"length":null,"width":null,"height":null}
+Starting product save at 2025-07-28 16:34:55
+Tracking options: {"track_batches":0,"track_expiry":0,"track_serial":0,"enable_stock_alerts":1}
+Update SQL Query: UPDATE products SET 
+                     product_name = :product_name, 
+                     product_code = :product_code, 
+                     barcode = :barcode, 
+                     category_id = :category_id, 
+                     brand_id = :brand_id, 
+                     description = :description, 
+                     short_description = :short_description,
+                     base_uom_id = :base_uom_id, 
+                     purchase_uom_id = :purchase_uom_id, 
+                     sales_uom_id = :sales_uom_id, 
+                     cost_price = :cost_price, 
+                     selling_price = :selling_price, 
+                     min_selling_price = :min_selling_price,
+                     wholesale_price = :wholesale_price,
+                     min_wholesale_qty = :min_wholesale_qty,
+                     tax_rate = :tax_rate, 
+                     is_taxable = :is_taxable, 
+                     min_stock_level = :min_stock_level, 
+                     reorder_point = :reorder_point, 
+                     max_stock_level = :max_stock_level, 
+                     is_service = :is_service,
+                     is_active = :is_active, 
+                     has_variants = :has_variants, 
+                     is_variant = :is_variant, 
+                     parent_product_id = :parent_product_id, 
+                     weight = :weight, 
+                     length = :length,
+                     width = :width, 
+                     height = :height, 
+                     track_batches = :track_batches,
+                     track_expiry = :track_expiry,
+                     track_serial = :track_serial,
+                     enable_stock_alerts = :enable_stock_alerts,
+                     updated_at = NOW(), 
+                     updated_by = :updated_by WHERE id = :product_id
+Parameters: {":product_name":"Inverex 6kw",":product_code":"PR000001",":barcode":"1412094646504",":category_id":3,":brand_id":8,":description":null,":short_description":null,":base_uom_id":null,":purchase_uom_id":null,":sales_uom_id":null,":cost_price":200000,":selling_price":300000,":min_selling_price":275000,":wholesale_price":250000,":min_wholesale_qty":3,":tax_rate":0,":is_taxable":0,":min_stock_level":5,":reorder_point":5,":max_stock_level":0,":is_service":0,":is_active":1,":has_variants":0,":is_variant":0,":parent_product_id":null,":weight":null,":length":null,":width":null,":height":null,":track_batches":0,":track_expiry":0,":track_serial":0,":enable_stock_alerts":1,":updated_by":"1",":product_id":1}
+All parameters bound successfully
+SQL executed successfully
+Transaction committed
