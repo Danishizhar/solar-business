@@ -1,4 +1,4 @@
-/**
+/***
  * Sidebar menu functionality
  * Handles dropdown menus and active states
  */
